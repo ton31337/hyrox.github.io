@@ -148,22 +148,6 @@
   </header>
 
   <main class="wrap">
-    <section id="loaderPanel" class="panel">
-      <div class="controls">
-        <div class="row">
-          <input id="jsonUrl" type="text" value="https://hyrox.top/contrib/top.json" placeholder="URL to JSON" />
-          <button class="btn" id="loadUrlBtn">Load URL</button>
-        </div>
-        <div class="row right">
-          <input id="fileInput" type="file" accept="application/json" />
-          <button class="btn" id="loadFileBtn">Load File</button>
-          <button class="btn" id="resetBtn">Reset to Averages</button>
-        </div>
-      </div>
-      <p class="hint" style="margin-top:8px">
-      </p>
-    </section>
-
     <section id="totals" class="panel hidden">
       <div class="total">
         <span>Total Estimated Time</span>
@@ -266,43 +250,6 @@
       const total = sliders.reduce((sum, s) => sum + Number(s.inputEl.value || 0), 0);
       document.getElementById('totalTime').textContent = secondsToHMS(total);
     }
-
-    function resetToAverages() {
-      sliders.forEach(s => {
-        const max = Number(s.inputEl.max);
-        const val = clamp(Math.round(s.avgSec), 0, max);
-        s.inputEl.value = String(val);
-        s.valueEl.textContent = secondsToHMS(val);
-      });
-      updateTotal();
-    }
-
-    // --- Wire up manual controls (kept as fallback) ---
-    document.getElementById('loadUrlBtn').addEventListener('click', async () => {
-      const url = document.getElementById('jsonUrl').value.trim();
-      if (!url) return;
-      try {
-        const res = await fetch(url, { cache: 'no-store' });
-        if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-        const data = await res.json();
-        buildFromData(data);
-      } catch (e) {
-        alert('Failed to load URL. Check CORS or try downloading the file and using "Load File".\\n' + e);
-      }
-    });
-    document.getElementById('loadFileBtn').addEventListener('click', async () => {
-      const fileInput = document.getElementById('fileInput');
-      const file = fileInput.files && fileInput.files[0];
-      if (!file) return;
-      try {
-        const text = await file.text();
-        const data = JSON.parse(text);
-        buildFromData(data);
-      } catch (e) {
-        alert('Invalid JSON file: ' + e);
-      }
-    });
-    document.getElementById('resetBtn').addEventListener('click', resetToAverages);
 
     // --- Auto-load sequence ---
     (async function boot() {
