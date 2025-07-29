@@ -158,7 +158,6 @@
           <input id="fileInput" type="file" accept="application/json" />
           <button class="btn" id="loadFileBtn">Load File</button>
           <button class="btn" id="resetBtn">Reset to Averages</button>
-          <button class="btn primary" id="exportBtn">Export Plan JSON</button>
         </div>
       </div>
       <p class="hint" style="margin-top:8px">
@@ -278,31 +277,6 @@
       updateTotal();
     }
 
-    function exportPlan() {
-      const plan = {
-        generated_at: new Date().toISOString(),
-        total_seconds: sliders.reduce((sum, s) => sum + Number(s.inputEl.value || 0), 0),
-        total_label: document.getElementById('totalTime').textContent,
-        splits: sliders.map(s => ({
-          split: s.split,
-          seconds: Number(s.inputEl.value || 0),
-          label: secondsToHMS(Number(s.inputEl.value || 0)),
-          reference_avg_seconds: s.avgSec,
-          reference_avg_label: secondsToHMS(s.avgSec),
-          n: s.count
-        }))
-      };
-      const blob = new Blob([JSON.stringify(plan, null, 2)], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'hyrox_plan.json';
-      document.body.appendChild(a);
-      a.click();
-      a.remove();
-      setTimeout(() => URL.revokeObjectURL(url), 1000);
-    }
-
     // --- Wire up manual controls (kept as fallback) ---
     document.getElementById('loadUrlBtn').addEventListener('click', async () => {
       const url = document.getElementById('jsonUrl').value.trim();
@@ -329,7 +303,6 @@
       }
     });
     document.getElementById('resetBtn').addEventListener('click', resetToAverages);
-    document.getElementById('exportBtn').addEventListener('click', exportPlan);
 
     // --- Auto-load sequence ---
     (async function boot() {
