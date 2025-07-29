@@ -12414,76 +12414,10 @@
   "aggregate": {
     "splits": [
       {
-        "split": "Burpee BJ",
-        "count": 99,
-        "mean_average_seconds": 189.4848484848485,
-        "mean_average": "3:09"
-      },
-      {
-        "split": "Farmers C.",
-        "count": 99,
-        "mean_average_seconds": 100.5050505050505,
-        "mean_average": "1:41"
-      },
-      {
-        "split": "Row",
-        "count": 100,
-        "mean_average_seconds": 258.26,
-        "mean_average": "4:18"
-      },
-      {
         "split": "Running 1",
         "count": 100,
         "mean_average_seconds": 224.24,
         "mean_average": "3:44"
-      },
-      {
-        "split": "Running 2",
-        "count": 100,
-        "mean_average_seconds": 231.51,
-        "mean_average": "3:52"
-      },
-      {
-        "split": "Running 3",
-        "count": 99,
-        "mean_average_seconds": 244.21212121212122,
-        "mean_average": "4:04"
-      },
-      {
-        "split": "Running 4",
-        "count": 99,
-        "mean_average_seconds": 243.5151515151515,
-        "mean_average": "4:04"
-      },
-      {
-        "split": "Running 5",
-        "count": 99,
-        "mean_average_seconds": 247.12121212121212,
-        "mean_average": "4:07"
-      },
-      {
-        "split": "Running 6",
-        "count": 99,
-        "mean_average_seconds": 245.24242424242425,
-        "mean_average": "4:05"
-      },
-      {
-        "split": "Running 7",
-        "count": 99,
-        "mean_average_seconds": 246.0,
-        "mean_average": "4:06"
-      },
-      {
-        "split": "Running 8",
-        "count": 99,
-        "mean_average_seconds": 258.34343434343435,
-        "mean_average": "4:18"
-      },
-      {
-        "split": "S. Lunges",
-        "count": 99,
-        "mean_average_seconds": 190.91919191919192,
-        "mean_average": "3:11"
       },
       {
         "split": "SkiErg",
@@ -12492,9 +12426,9 @@
         "mean_average": "4:09"
       },
       {
-        "split": "Sled Pull",
-        "count": 99,
-        "mean_average_seconds": 231.92929292929293,
+        "split": "Running 2",
+        "count": 100,
+        "mean_average_seconds": 231.51,
         "mean_average": "3:52"
       },
       {
@@ -12502,6 +12436,72 @@
         "count": 99,
         "mean_average_seconds": 144.57575757575756,
         "mean_average": "2:25"
+      },
+      {
+        "split": "Running 3",
+        "count": 99,
+        "mean_average_seconds": 244.21212121212122,
+        "mean_average": "4:04"
+      },
+      {
+        "split": "Sled Pull",
+        "count": 99,
+        "mean_average_seconds": 231.92929292929293,
+        "mean_average": "3:52"
+      },
+      {
+        "split": "Running 4",
+        "count": 99,
+        "mean_average_seconds": 243.5151515151515,
+        "mean_average": "4:04"
+      },
+      {
+        "split": "Burpee BJ",
+        "count": 99,
+        "mean_average_seconds": 189.4848484848485,
+        "mean_average": "3:09"
+      },
+      {
+        "split": "Running 5",
+        "count": 99,
+        "mean_average_seconds": 247.12121212121212,
+        "mean_average": "4:07"
+      },
+      {
+        "split": "Row",
+        "count": 100,
+        "mean_average_seconds": 258.26,
+        "mean_average": "4:18"
+      },
+      {
+        "split": "Running 6",
+        "count": 99,
+        "mean_average_seconds": 245.24242424242425,
+        "mean_average": "4:05"
+      },
+      {
+        "split": "Farmers C.",
+        "count": 99,
+        "mean_average_seconds": 100.5050505050505,
+        "mean_average": "1:41"
+      },
+      {
+        "split": "Running 7",
+        "count": 99,
+        "mean_average_seconds": 246.0,
+        "mean_average": "4:06"
+      },
+      {
+        "split": "S. Lunges",
+        "count": 99,
+        "mean_average_seconds": 190.91919191919192,
+        "mean_average": "3:11"
+      },
+      {
+        "split": "Running 8",
+        "count": 99,
+        "mean_average_seconds": 258.34343434343435,
+        "mean_average": "4:18"
       },
       {
         "split": "Wall Balls",
