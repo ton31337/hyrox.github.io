@@ -251,31 +251,7 @@
       document.getElementById('totalTime').textContent = secondsToHMS(total);
     }
 
-    // --- Auto-load sequence ---
     (async function boot() {
-      // 1) Embedded <script type="application/json" id="embedded-data">
-      try {
-        const el = document.getElementById('embedded-data');
-        if (el && el.textContent.trim().length > 0) {
-          const embedded = JSON.parse(el.textContent);
-          buildFromData(embedded);
-          return;
-        }
-      } catch (e) {
-        console.warn("Embedded JSON failed:", e);
-      }
-
-      // 2) window.HYROX_DATA global (if present)
-      if (window.HYROX_DATA) {
-        try {
-          buildFromData(window.HYROX_DATA);
-          return;
-        } catch (e) {
-          console.warn("window.HYROX_DATA failed:", e);
-        }
-      }
-
-      // 3) DEFAULT_REMOTE
       try {
         const res = await fetch(DEFAULT_REMOTE, { cache: 'no-store' });
         if (res.ok) {
@@ -285,32 +261,6 @@
         }
       } catch (e) {
         console.warn("Default remote fetch failed:", e);
-      }
-
-      // 4) ?data=<URL>
-      const qp = getQueryParam('data');
-      if (qp) {
-        try {
-          const res = await fetch(qp, { cache: 'no-store' });
-          if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-          const payload = await res.json();
-          buildFromData(payload);
-          return;
-        } catch (e) {
-          console.warn("Query param data fetch failed:", e);
-        }
-      }
-
-      // 5) ./top.json (same folder)
-      try {
-        const res = await fetch('./top.json', { cache: 'no-store' });
-        if (res.ok) {
-          const payload = await res.json();
-          buildFromData(payload);
-          return;
-        }
-      } catch (e) {
-        console.warn("Local top.json not found or blocked by browser:", e);
       }
 
       // If nothing above worked, leave controls visible for manual loading
