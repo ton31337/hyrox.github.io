@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hyrox Benchmark</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --muted: #94a3b8;
+      --text: #e5e7eb;
+      --accent: #60a5fa;
+      --accent-2: #34d399;
+      --border: #1f2937;
+    }
+    * { box-sizing: border-box; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    a:focus-visible {
+      outline: 2px solid var(--accent);
+    }
+    a:visited {
+      color: var(--accent); 
+    }
+    a:active {
+      transform: scale(0.98);
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      background: linear-gradient(180deg, #0b1023 0%, #0f172a 100%);
+      color: var(--text);
+    }
+    header {
+      padding: 24px;
+      border-bottom: 1px solid var(--border);
+      background: rgba(17, 24, 39, 0.6);
+      backdrop-filter: blur(6px);
+      position: sticky; top: 0; z-index: 10;
+    }
+    .wrap { max-width: 980px; margin: 0 auto; }
+    h1 { margin: 0 0 8px 0; font-size: 28px; }
+    p.lead { margin: 0; color: var(--muted); }
+    .panel {
+      background: rgba(17, 24, 39, 0.75);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      margin: 24px auto;
+    }
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      align-items: center;
+    }
+    .controls .row { display: flex; gap: 12px; align-items: center; }
+    .controls input[type="text"] {
+      width: 100%;
+      background: #0b1220;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--text);
+      padding: 10px 12px;
+    }
+    .btn {
+      appearance: none;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 14px;
+      background: #0b1220;
+      color: var(--text);
+      cursor: pointer;
+    }
+    .btn.primary { border-color: transparent; background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: #060b16; font-weight: 700; }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 720px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+    .card {
+      border: 1px solid var(--border);
+      background: #0b1220;
+      border-radius: 14px;
+      padding: 14px;
+    }
+    .split-title {
+      display: flex; justify-content: space-between; align-items: baseline; gap: 10px;
+      margin-bottom: 6px;
+    }
+    .split-name { font-weight: 700; }
+    .avg { color: var(--muted); font-size: 12px; }
+    .slider-row { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; }
+    input[type="range"] { width: 100%; accent-color: var(--accent); }
+    .value {
+      min-width: 80px; text-align: right; font-variant-numeric: tabular-nums;
+      background: #0b1628; border: 1px solid var(--border); border-radius: 8px; padding: 6px 8px;
+    }
+    .total {
+      display: flex; align-items: center; justify-content: space-between;
+      font-size: 20px; font-weight: 800; padding: 14px 16px; border-radius: 12px;
+      background: linear-gradient(90deg, rgba(96,165,250,0.15), rgba(52,211,153,0.15));
+      border: 1px solid var(--border);
+    }
+    footer { 
+      color: var(--muted); text-align: center; padding: 32px; 
+    }
+    .hint { color: var(--muted); font-size: 12px; }
+    .right { text-align: right; }
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Hyrox Benchmark</h1>
+      <p class="lead">Sliders estimate your event time. Each split shows the <em>top‑100 average</em>.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="loaderPanel" class="panel">
+      <div class="controls">
+        <div class="row">
+          <input id="jsonUrl" type="text" value="https://hyrox.top/contrib/top.json" placeholder="URL to JSON" />
+          <button class="btn" id="loadUrlBtn">Load URL</button>
+        </div>
+        <div class="row right">
+          <input id="fileInput" type="file" accept="application/json" />
+          <button class="btn" id="loadFileBtn">Load File</button>
+          <button class="btn" id="resetBtn">Reset to Averages</button>
+          <button class="btn primary" id="exportBtn">Export Plan JSON</button>
+        </div>
+      </div>
+      <p class="hint" style="margin-top:8px">
+      </p>
+    </section>
+
+    <section id="totals" class="panel hidden">
+      <div class="total">
+        <span>Total Estimated Time</span>
+        <span id="totalTime">0:00</span>
+      </div>
+    </section>
+
+    <section id="splits" class="grid hidden"></section>
+
+    <footer>
+      <a href="https://www.instagram.com/olimpieciogimnastikos">Let's roll the ball!</a>
+    </footer>
+  </main>
+
+  <!-- Option A: embed JSON directly. Paste payload here and it will auto-load on open. -->
+  <script id="embedded-data" type="application/json"></script>
+
+  <!-- Option B: define window.HYROX_DATA = {...}; and it will auto-load. -->
+  <script>
+    // window.HYROX_DATA = { /* your payload here */ };
+  </script>
+
+  <script>
+    const DEFAULT_REMOTE = "https://hyrox.top/contrib/top.json";
+
+    // --- Utilities ---
+    function secondsToHMS(sec) {
+      if (sec == null || isNaN(sec)) return "";
+      sec = Math.round(sec);
+      const h = Math.floor(sec / 3600);
+      const m = Math.floor((sec % 3600) / 60);
+      const s = sec % 60;
+      return h > 0 ? `${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`
+                   : `${m}:${String(s).padStart(2,'0')}`;
+    }
+    function clamp(n, min, max) { return Math.max(min, Math.min(max, n)); }
+    function getQueryParam(name) {
+      const url = new URL(window.location.href);
+      return url.searchParams.get(name);
+    }
+    function showApp() {
+      document.getElementById('totals').classList.remove('hidden');
+      document.getElementById('splits').classList.remove('hidden');
+    }
+
+    // --- State ---
+    let sliders = []; // [{split, inputEl, valueEl, avgSec, count}]
+
+    function clearUI() {
+      document.getElementById('splits').innerHTML = "";
+      document.getElementById('totalTime').textContent = "0:00";
+      sliders = [];
+    }
+
+    function buildFromData(data) {
+      clearUI();
+      const splits = data?.aggregate?.splits || data?.splits || [];
+      if (!Array.isArray(splits) || splits.length === 0) {
+        console.warn("No splits found in JSON (expected payload.aggregate.splits[])");
+        return;
+      }
+      const grid = document.getElementById('splits');
+      splits.forEach((row, idx) => {
+        const splitName = row.split || `Split ${idx+1}`;
+        const avgSec = Number(row.mean_average_seconds ?? row.avg_seconds ?? row.average_seconds);
+        const avgLabel = secondsToHMS(avgSec);
+        const count = row.count ?? null;
+
+        const min = 0;
+        const max = Math.max(60, Math.round((avgSec || 60) * 2.5));
+        const start = clamp(Math.round(avgSec || 60), min, max);
+
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+          <div class="split-title">
+            <div class="split-name">${splitName}</div>
+            <div class="avg">Avg: <strong>${avgLabel || "n/a"}</strong>${count ? ` · n=${count}` : ""}</div>
+          </div>
+          <div class="slider-row">
+            <input type="range" min="${min}" max="${max}" value="${start}" step="1" aria-label="${splitName} slider">
+            <div class="value" aria-live="polite">${secondsToHMS(start)}</div>
+          </div>
+        `;
+        const inputEl = card.querySelector('input[type="range"]');
+        const valueEl = card.querySelector('.value');
+        inputEl.addEventListener('input', () => {
+          valueEl.textContent = secondsToHMS(Number(inputEl.value));
+          updateTotal();
+        });
+
+        grid.appendChild(card);
+        sliders.push({ split: splitName, inputEl, valueEl, avgSec: avgSec || 0, count: count || 0 });
+      });
+      updateTotal();
+      showApp();
+    }
+
+    function updateTotal() {
+      const total = sliders.reduce((sum, s) => sum + Number(s.inputEl.value || 0), 0);
+      document.getElementById('totalTime').textContent = secondsToHMS(total);
+    }
+
+    function resetToAverages() {
+      sliders.forEach(s => {
+        const max = Number(s.inputEl.max);
+        const val = clamp(Math.round(s.avgSec), 0, max);
+        s.inputEl.value = String(val);
+        s.valueEl.textContent = secondsToHMS(val);
+      });
+      updateTotal();
+    }
+
+    function exportPlan() {
+      const plan = {
+        generated_at: new Date().toISOString(),
+        total_seconds: sliders.reduce((sum, s) => sum + Number(s.inputEl.value || 0), 0),
+        total_label: document.getElementById('totalTime').textContent,
+        splits: sliders.map(s => ({
+          split: s.split,
+          seconds: Number(s.inputEl.value || 0),
+          label: secondsToHMS(Number(s.inputEl.value || 0)),
+          reference_avg_seconds: s.avgSec,
+          reference_avg_label: secondsToHMS(s.avgSec),
+          n: s.count
+        }))
+      };
+      const blob = new Blob([JSON.stringify(plan, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'hyrox_plan.json';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    }
+
+    // --- Wire up manual controls (kept as fallback) ---
+    document.getElementById('loadUrlBtn').addEventListener('click', async () => {
+      const url = document.getElementById('jsonUrl').value.trim();
+      if (!url) return;
+      try {
+        const res = await fetch(url, { cache: 'no-store' });
+        if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+        const data = await res.json();
+        buildFromData(data);
+      } catch (e) {
+        alert('Failed to load URL. Check CORS or try downloading the file and using "Load File".\\n' + e);
+      }
+    });
+    document.getElementById('loadFileBtn').addEventListener('click', async () => {
+      const fileInput = document.getElementById('fileInput');
+      const file = fileInput.files && fileInput.files[0];
+      if (!file) return;
+      try {
+        const text = await file.text();
+        const data = JSON.parse(text);
+        buildFromData(data);
+      } catch (e) {
+        alert('Invalid JSON file: ' + e);
+      }
+    });
+    document.getElementById('resetBtn').addEventListener('click', resetToAverages);
+    document.getElementById('exportBtn').addEventListener('click', exportPlan);
+
+    // --- Auto-load sequence ---
+    (async function boot() {
+      // 1) Embedded <script type="application/json" id="embedded-data">
+      try {
+        const el = document.getElementById('embedded-data');
+        if (el && el.textContent.trim().length > 0) {
+          const embedded = JSON.parse(el.textContent);
+          buildFromData(embedded);
+          return;
+        }
+      } catch (e) {
+        console.warn("Embedded JSON failed:", e);
+      }
+
+      // 2) window.HYROX_DATA global (if present)
+      if (window.HYROX_DATA) {
+        try {
+          buildFromData(window.HYROX_DATA);
+          return;
+        } catch (e) {
+          console.warn("window.HYROX_DATA failed:", e);
+        }
+      }
+
+      // 3) DEFAULT_REMOTE
+      try {
+        const res = await fetch(DEFAULT_REMOTE, { cache: 'no-store' });
+        if (res.ok) {
+          const payload = await res.json();
+          buildFromData(payload);
+          return;
+        }
+      } catch (e) {
+        console.warn("Default remote fetch failed:", e);
+      }
+
+      // 4) ?data=<URL>
+      const qp = getQueryParam('data');
+      if (qp) {
+        try {
+          const res = await fetch(qp, { cache: 'no-store' });
+          if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+          const payload = await res.json();
+          buildFromData(payload);
+          return;
+        } catch (e) {
+          console.warn("Query param data fetch failed:", e);
+        }
+      }
+
+      // 5) ./top.json (same folder)
+      try {
+        const res = await fetch('./top.json', { cache: 'no-store' });
+        if (res.ok) {
+          const payload = await res.json();
+          buildFromData(payload);
+          return;
+        }
+      } catch (e) {
+        console.warn("Local top.json not found or blocked by browser:", e);
+      }
+
+      // 6) ./hyresult_aggregate.json (legacy name)
+      try {
+        const res = await fetch('./hyresult_aggregate.json', { cache: 'no-store' });
+        if (res.ok) {
+          const payload = await res.json();
+          buildFromData(payload);
+          return;
+        }
+      } catch (e) {
+        console.warn("Local hyresult_aggregate.json not found or blocked by browser:", e);
+      }
+
+      // If nothing above worked, leave controls visible for manual loading
+      document.getElementById('loaderPanel').classList.remove('hidden');
+    })();
+  </script>
+</body>
+</html>

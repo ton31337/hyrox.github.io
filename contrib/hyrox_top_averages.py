@@ -172,7 +172,9 @@ def main() -> None:
     parser.add_argument("--out", default=None, help="Optional path to save JSON")
     args = parser.parse_args()
 
-    top_athletes = get_top_athletes(n=args.top, url=args.rankings_url)
+    top_athletes_men = get_top_athletes(n=args.top, url=args.rankings_url)
+    top_athletes_women = get_top_athletes(n=args.top, url="https://www.hyresult.com/rankings/alltime/hyrox-women")
+    top_athletes = top_athletes_men + top_athletes_women
 
     athletes_data: List[Dict[str, object]] = []
     for i, a in enumerate(top_athletes, start=1):
