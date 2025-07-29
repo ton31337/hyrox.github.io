@@ -4,7 +4,7 @@
     "base": "https://www.hyresult.com"
   },
   "params": {
-    "top_n": 2,
+    "top_n": 50,
     "sleep": 0.5
   },
   "rankings": [
@@ -21,6 +21,144 @@
       "timings_url": "https://www.hyresult.com/athlete/fabian-eisenlauer?tab=timings"
     },
     {
+      "rank": 3,
+      "name": "Dylan Scott",
+      "profile_url": "https://www.hyresult.com/athlete/dylan-scott",
+      "timings_url": "https://www.hyresult.com/athlete/dylan-scott?tab=timings"
+    },
+    {
+      "rank": 4,
+      "name": "Philipp Wamser",
+      "profile_url": "https://www.hyresult.com/athlete/philipp-wamser",
+      "timings_url": "https://www.hyresult.com/athlete/philipp-wamser?tab=timings"
+    },
+    {
+      "rank": 5,
+      "name": "Pablo Sánchez Santos",
+      "profile_url": "https://www.hyresult.com/athlete/pablo-sanchez-santos",
+      "timings_url": "https://www.hyresult.com/athlete/pablo-sanchez-santos?tab=timings"
+    },
+    {
+      "rank": 6,
+      "name": "Tiago Lousa",
+      "profile_url": "https://www.hyresult.com/athlete/tiago-lousa",
+      "timings_url": "https://www.hyresult.com/athlete/tiago-lousa?tab=timings"
+    },
+    {
+      "rank": 7,
+      "name": "Kamil Kuszmider",
+      "profile_url": "https://www.hyresult.com/athlete/kamil-kuszmider",
+      "timings_url": "https://www.hyresult.com/athlete/kamil-kuszmider?tab=timings"
+    },
+    {
+      "rank": 8,
+      "name": "Domen Dornik",
+      "profile_url": "https://www.hyresult.com/athlete/domen-dornik",
+      "timings_url": "https://www.hyresult.com/athlete/domen-dornik?tab=timings"
+    },
+    {
+      "rank": 9,
+      "name": "Dieter Schwarzkopf",
+      "profile_url": "https://www.hyresult.com/athlete/dieter-schwarzkopf",
+      "timings_url": "https://www.hyresult.com/athlete/dieter-schwarzkopf?tab=timings"
+    },
+    {
+      "rank": 10,
+      "name": "Danny Rae",
+      "profile_url": "https://www.hyresult.com/athlete/danny-rae",
+      "timings_url": "https://www.hyresult.com/athlete/danny-rae?tab=timings"
+    },
+    {
+      "rank": 11,
+      "name": "Charlie Botterill",
+      "profile_url": "https://www.hyresult.com/athlete/charlie-botterill",
+      "timings_url": "https://www.hyresult.com/athlete/charlie-botterill?tab=timings"
+    },
+    {
+      "rank": 12,
+      "name": "Guillaume Levoy",
+      "profile_url": "https://www.hyresult.com/athlete/guillaume-levoy",
+      "timings_url": "https://www.hyresult.com/athlete/guillaume-levoy?tab=timings"
+    },
+    {
+      "rank": 13,
+      "name": "Federico Ruanova",
+      "profile_url": "https://www.hyresult.com/athlete/federico-ruanova",
+      "timings_url": "https://www.hyresult.com/athlete/federico-ruanova?tab=timings"
+    },
+    {
+      "rank": 14,
+      "name": "Aaron Woodman",
+      "profile_url": "https://www.hyresult.com/athlete/aaron-woodman",
+      "timings_url": "https://www.hyresult.com/athlete/aaron-woodman?tab=timings"
+    },
+    {
+      "rank": 15,
+      "name": "David Parkin",
+      "profile_url": "https://www.hyresult.com/athlete/david-parkin",
+      "timings_url": "https://www.hyresult.com/athlete/david-parkin?tab=timings"
+    },
+    {
+      "rank": 16,
+      "name": "Hidde Weersma",
+      "profile_url": "https://www.hyresult.com/athlete/hidde-weersma",
+      "timings_url": "https://www.hyresult.com/athlete/hidde-weersma?tab=timings"
+    },
+    {
+      "rank": 17,
+      "name": "Roberto Viciedo Gimeno",
+      "profile_url": "https://www.hyresult.com/athlete/roberto-viciedo-gimeno",
+      "timings_url": "https://www.hyresult.com/athlete/roberto-viciedo-gimeno?tab=timings"
+    },
+    {
+      "rank": 18,
+      "name": "Robert Van Herk",
+      "profile_url": "https://www.hyresult.com/athlete/robert-van-herk",
+      "timings_url": "https://www.hyresult.com/athlete/robert-van-herk?tab=timings"
+    },
+    {
+      "rank": 19,
+      "name": "Eugenio Bianchi",
+      "profile_url": "https://www.hyresult.com/athlete/eugenio-bianchi",
+      "timings_url": "https://www.hyresult.com/athlete/eugenio-bianchi?tab=timings"
+    },
+    {
+      "rank": 20,
+      "name": "Joffrey Voisin",
+      "profile_url": "https://www.hyresult.com/athlete/joffrey-voisin",
+      "timings_url": "https://www.hyresult.com/athlete/joffrey-voisin?tab=timings"
+    },
+    {
+      "rank": 21,
+      "name": "Ronan Lindsay",
+      "profile_url": "https://www.hyresult.com/athlete/ronan-lindsay",
+      "timings_url": "https://www.hyresult.com/athlete/ronan-lindsay?tab=timings"
+    },
+    {
+      "rank": 22,
+      "name": "Alen Ploj",
+      "profile_url": "https://www.hyresult.com/athlete/alen-ploj",
+      "timings_url": "https://www.hyresult.com/athlete/alen-ploj?tab=timings"
+    },
+    {
+      "rank": 23,
+      "name": "Luis García Rubio",
+      "profile_url": "https://www.hyresult.com/athlete/luis-garcia-rubio",
+      "timings_url": "https://www.hyresult.com/athlete/luis-garcia-rubio?tab=timings"
+    },
+    {
+      "rank": 24,
+      "name": "Kenny Steger",
+      "profile_url": "https://www.hyresult.com/athlete/kenny-steger",
+      "timings_url": "https://www.hyresult.com/athlete/kenny-steger?tab=timings"
+    },
+    {
+      "rank": 25,
+      "name": "Kieron White",
+      "profile_url": "https://www.hyresult.com/athlete/kieron-white",
+      "timings_url": "https://www.hyresult.com/athlete/kieron-white?tab=timings"
+    },
+    {
       "rank": 1,
       "name": "FRANCESCA CAMPITIELLO",
       "profile_url": "https://www.hyresult.com/athlete/francesca-campitiello",
@@ -31,6 +169,144 @@
       "name": "Lauren Weeks",
       "profile_url": "https://www.hyresult.com/athlete/lauren-weeks",
       "timings_url": "https://www.hyresult.com/athlete/lauren-weeks?tab=timings"
+    },
+    {
+      "rank": 3,
+      "name": "Lucy Procter",
+      "profile_url": "https://www.hyresult.com/athlete/lucy-procter",
+      "timings_url": "https://www.hyresult.com/athlete/lucy-procter?tab=timings"
+    },
+    {
+      "rank": 4,
+      "name": "Sophia Parvizi Wayne",
+      "profile_url": "https://www.hyresult.com/athlete/sophia-parvizi-wayne",
+      "timings_url": "https://www.hyresult.com/athlete/sophia-parvizi-wayne?tab=timings"
+    },
+    {
+      "rank": 5,
+      "name": "Alice Schürer",
+      "profile_url": "https://www.hyresult.com/athlete/alice-schuerer",
+      "timings_url": "https://www.hyresult.com/athlete/alice-schuerer?tab=timings"
+    },
+    {
+      "rank": 6,
+      "name": "Katherine Fahsbender",
+      "profile_url": "https://www.hyresult.com/athlete/katherine-fahsbender",
+      "timings_url": "https://www.hyresult.com/athlete/katherine-fahsbender?tab=timings"
+    },
+    {
+      "rank": 7,
+      "name": "Tanja Stroschneider",
+      "profile_url": "https://www.hyresult.com/athlete/tanja-stroschneider",
+      "timings_url": "https://www.hyresult.com/athlete/tanja-stroschneider?tab=timings"
+    },
+    {
+      "rank": 8,
+      "name": "Lucy Davis",
+      "profile_url": "https://www.hyresult.com/athlete/lucy-davis",
+      "timings_url": "https://www.hyresult.com/athlete/lucy-davis?tab=timings"
+    },
+    {
+      "rank": 9,
+      "name": "Gloria Corbetta",
+      "profile_url": "https://www.hyresult.com/athlete/gloria-corbetta",
+      "timings_url": "https://www.hyresult.com/athlete/gloria-corbetta?tab=timings"
+    },
+    {
+      "rank": 10,
+      "name": "Sinead Bent",
+      "profile_url": "https://www.hyresult.com/athlete/sinead-bent",
+      "timings_url": "https://www.hyresult.com/athlete/sinead-bent?tab=timings"
+    },
+    {
+      "rank": 11,
+      "name": "Isabell Speer",
+      "profile_url": "https://www.hyresult.com/athlete/isabell-speer",
+      "timings_url": "https://www.hyresult.com/athlete/isabell-speer?tab=timings"
+    },
+    {
+      "rank": 12,
+      "name": "Jana Sussmann",
+      "profile_url": "https://www.hyresult.com/athlete/jana-sussmann",
+      "timings_url": "https://www.hyresult.com/athlete/jana-sussmann?tab=timings"
+    },
+    {
+      "rank": 13,
+      "name": "Sophia Kaiser",
+      "profile_url": "https://www.hyresult.com/athlete/sophia-kaiser",
+      "timings_url": "https://www.hyresult.com/athlete/sophia-kaiser?tab=timings"
+    },
+    {
+      "rank": 14,
+      "name": "Imogen Amos",
+      "profile_url": "https://www.hyresult.com/athlete/imogen-amos",
+      "timings_url": "https://www.hyresult.com/athlete/imogen-amos?tab=timings"
+    },
+    {
+      "rank": 15,
+      "name": "Lauren Griffith",
+      "profile_url": "https://www.hyresult.com/athlete/lauren-griffith",
+      "timings_url": "https://www.hyresult.com/athlete/lauren-griffith?tab=timings"
+    },
+    {
+      "rank": 16,
+      "name": "Mollie Emond",
+      "profile_url": "https://www.hyresult.com/athlete/mollie-emond",
+      "timings_url": "https://www.hyresult.com/athlete/mollie-emond?tab=timings"
+    },
+    {
+      "rank": 17,
+      "name": "Joanna Wietrzyk",
+      "profile_url": "https://www.hyresult.com/athlete/joanna-wietrzyk",
+      "timings_url": "https://www.hyresult.com/athlete/joanna-wietrzyk?tab=timings"
+    },
+    {
+      "rank": 18,
+      "name": "Rebecca Naether",
+      "profile_url": "https://www.hyresult.com/athlete/rebecca-naether",
+      "timings_url": "https://www.hyresult.com/athlete/rebecca-naether?tab=timings"
+    },
+    {
+      "rank": 19,
+      "name": "Yoie Bohlin",
+      "profile_url": "https://www.hyresult.com/athlete/yoie-bohlin",
+      "timings_url": "https://www.hyresult.com/athlete/yoie-bohlin?tab=timings"
+    },
+    {
+      "rank": 20,
+      "name": "Charlotte Vandenlindenloof",
+      "profile_url": "https://www.hyresult.com/athlete/charlotte-vandenlindenloof",
+      "timings_url": "https://www.hyresult.com/athlete/charlotte-vandenlindenloof?tab=timings"
+    },
+    {
+      "rank": 21,
+      "name": "Jessica Donohue",
+      "profile_url": "https://www.hyresult.com/athlete/jessica-donohue",
+      "timings_url": "https://www.hyresult.com/athlete/jessica-donohue?tab=timings"
+    },
+    {
+      "rank": 22,
+      "name": "Jana Lebenstedt",
+      "profile_url": "https://www.hyresult.com/athlete/jana-lebenstedt",
+      "timings_url": "https://www.hyresult.com/athlete/jana-lebenstedt?tab=timings"
+    },
+    {
+      "rank": 23,
+      "name": "Judith Spijksma",
+      "profile_url": "https://www.hyresult.com/athlete/judith-spijksma",
+      "timings_url": "https://www.hyresult.com/athlete/judith-spijksma?tab=timings"
+    },
+    {
+      "rank": 24,
+      "name": "Sydney Cromwell",
+      "profile_url": "https://www.hyresult.com/athlete/sydney-cromwell",
+      "timings_url": "https://www.hyresult.com/athlete/sydney-cromwell?tab=timings"
+    },
+    {
+      "rank": 25,
+      "name": "Sierra Baker",
+      "profile_url": "https://www.hyresult.com/athlete/sierra-baker",
+      "timings_url": "https://www.hyresult.com/athlete/sierra-baker?tab=timings"
     }
   ],
   "athletes": [
@@ -271,6 +547,2720 @@
       ]
     },
     {
+      "name": "Dylan Scott",
+      "timings_url": "https://www.hyresult.com/athlete/dylan-scott?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:32",
+          "average": "03:31",
+          "slowest": "06:11",
+          "average_seconds": 211
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:21",
+          "average": "03:45",
+          "slowest": "05:02",
+          "average_seconds": 225
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:12",
+          "average": "03:39",
+          "slowest": "05:50",
+          "average_seconds": 219
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:10",
+          "average": "02:36",
+          "slowest": "05:01",
+          "average_seconds": 156
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:05",
+          "average": "04:07",
+          "slowest": "11:37",
+          "average_seconds": 247
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:10",
+          "average": "03:28",
+          "slowest": "06:03",
+          "average_seconds": 208
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:05",
+          "average": "03:52",
+          "slowest": "06:34",
+          "average_seconds": 232
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:19",
+          "average": "02:30",
+          "slowest": "04:18",
+          "average_seconds": 150
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:12",
+          "average": "03:57",
+          "slowest": "07:04",
+          "average_seconds": 237
+        },
+        {
+          "split": "Row",
+          "fastest": "02:10",
+          "average": "03:54",
+          "slowest": "04:54",
+          "average_seconds": 234
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:14",
+          "average": "03:55",
+          "slowest": "06:46",
+          "average_seconds": 235
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:06",
+          "average": "01:39",
+          "slowest": "03:54",
+          "average_seconds": 99
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:14",
+          "average": "03:58",
+          "slowest": "07:36",
+          "average_seconds": 238
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:00",
+          "average": "03:01",
+          "slowest": "04:17",
+          "average_seconds": 181
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:54",
+          "average": "04:11",
+          "slowest": "07:29",
+          "average_seconds": 251
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:23",
+          "average": "04:23",
+          "slowest": "06:52",
+          "average_seconds": 263
+        }
+      ]
+    },
+    {
+      "name": "Philipp Wamser",
+      "timings_url": "https://www.hyresult.com/athlete/philipp-wamser?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:33",
+          "average": "03:18",
+          "slowest": "04:23",
+          "average_seconds": 198
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:26",
+          "average": "03:49",
+          "slowest": "04:15",
+          "average_seconds": 229
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:24",
+          "average": "03:46",
+          "slowest": "04:17",
+          "average_seconds": 226
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:20",
+          "average": "02:11",
+          "slowest": "03:05",
+          "average_seconds": 131
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:31",
+          "average": "04:03",
+          "slowest": "04:38",
+          "average_seconds": 243
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:00",
+          "average": "03:35",
+          "slowest": "04:51",
+          "average_seconds": 215
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:35",
+          "average": "04:11",
+          "slowest": "05:39",
+          "average_seconds": 251
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:47",
+          "average": "02:51",
+          "slowest": "03:26",
+          "average_seconds": 171
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:39",
+          "average": "04:23",
+          "slowest": "08:05",
+          "average_seconds": 263
+        },
+        {
+          "split": "Row",
+          "fastest": "03:44",
+          "average": "04:02",
+          "slowest": "04:14",
+          "average_seconds": 242
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:34",
+          "average": "04:01",
+          "slowest": "04:31",
+          "average_seconds": 241
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:15",
+          "average": "01:29",
+          "slowest": "01:38",
+          "average_seconds": 89
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:37",
+          "average": "04:04",
+          "slowest": "04:40",
+          "average_seconds": 244
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:13",
+          "average": "03:05",
+          "slowest": "04:06",
+          "average_seconds": 185
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:24",
+          "average": "04:14",
+          "slowest": "05:03",
+          "average_seconds": 254
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:24",
+          "average": "04:44",
+          "slowest": "06:51",
+          "average_seconds": 284
+        }
+      ]
+    },
+    {
+      "name": "Pablo Sánchez Santos",
+      "timings_url": "https://www.hyresult.com/athlete/pablo-sanchez-santos?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:56",
+          "average": "03:33",
+          "slowest": "04:47",
+          "average_seconds": 213
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:45",
+          "average": "03:56",
+          "slowest": "04:16",
+          "average_seconds": 236
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:04",
+          "average": "03:13",
+          "slowest": "03:21",
+          "average_seconds": 193
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:21",
+          "average": "02:19",
+          "slowest": "03:14",
+          "average_seconds": 139
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:13",
+          "average": "03:25",
+          "slowest": "03:37",
+          "average_seconds": 205
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:14",
+          "average": "03:28",
+          "slowest": "04:26",
+          "average_seconds": 208
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:08",
+          "average": "03:21",
+          "slowest": "03:33",
+          "average_seconds": 201
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:37",
+          "average": "02:23",
+          "slowest": "02:45",
+          "average_seconds": 143
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:10",
+          "average": "03:25",
+          "slowest": "03:42",
+          "average_seconds": 205
+        },
+        {
+          "split": "Row",
+          "fastest": "03:57",
+          "average": "04:09",
+          "slowest": "04:20",
+          "average_seconds": 249
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:08",
+          "average": "03:22",
+          "slowest": "03:28",
+          "average_seconds": 202
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:08",
+          "average": "01:34",
+          "slowest": "02:02",
+          "average_seconds": 94
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:12",
+          "average": "03:23",
+          "slowest": "03:36",
+          "average_seconds": 203
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:38",
+          "average": "03:20",
+          "slowest": "04:05",
+          "average_seconds": 200
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:26",
+          "average": "03:38",
+          "slowest": "03:50",
+          "average_seconds": 218
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:11",
+          "average": "04:18",
+          "slowest": "06:55",
+          "average_seconds": 258
+        }
+      ]
+    },
+    {
+      "name": "Tiago Lousa",
+      "timings_url": "https://www.hyresult.com/athlete/tiago-lousa?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "01:36",
+          "average": "03:24",
+          "slowest": "04:50",
+          "average_seconds": 204
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:18",
+          "average": "03:43",
+          "slowest": "03:56",
+          "average_seconds": 223
+        },
+        {
+          "split": "Running 2",
+          "fastest": "02:54",
+          "average": "03:37",
+          "slowest": "04:19",
+          "average_seconds": 217
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:24",
+          "average": "02:26",
+          "slowest": "04:05",
+          "average_seconds": 146
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:01",
+          "average": "03:49",
+          "slowest": "04:37",
+          "average_seconds": 229
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "01:50",
+          "average": "03:25",
+          "slowest": "06:06",
+          "average_seconds": 205
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:02",
+          "average": "03:47",
+          "slowest": "04:38",
+          "average_seconds": 227
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:38",
+          "average": "02:10",
+          "slowest": "02:40",
+          "average_seconds": 130
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:02",
+          "average": "03:51",
+          "slowest": "04:43",
+          "average_seconds": 231
+        },
+        {
+          "split": "Row",
+          "fastest": "02:49",
+          "average": "03:59",
+          "slowest": "05:12",
+          "average_seconds": 239
+        },
+        {
+          "split": "Running 6",
+          "fastest": "02:59",
+          "average": "03:46",
+          "slowest": "04:42",
+          "average_seconds": 226
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:07",
+          "average": "01:40",
+          "slowest": "02:45",
+          "average_seconds": 100
+        },
+        {
+          "split": "Running 7",
+          "fastest": "02:59",
+          "average": "03:47",
+          "slowest": "04:48",
+          "average_seconds": 227
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:03",
+          "average": "02:56",
+          "slowest": "03:38",
+          "average_seconds": 176
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:00",
+          "average": "04:03",
+          "slowest": "05:02",
+          "average_seconds": 243
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:14",
+          "average": "04:10",
+          "slowest": "06:08",
+          "average_seconds": 250
+        }
+      ]
+    },
+    {
+      "name": "Kamil Kuszmider",
+      "timings_url": "https://www.hyresult.com/athlete/kamil-kuszmider?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:31",
+          "average": "03:08",
+          "slowest": "04:46",
+          "average_seconds": 188
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:38",
+          "average": "03:50",
+          "slowest": "03:59",
+          "average_seconds": 230
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:12",
+          "average": "03:46",
+          "slowest": "04:42",
+          "average_seconds": 226
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:15",
+          "average": "01:58",
+          "slowest": "03:21",
+          "average_seconds": 118
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:32",
+          "average": "03:54",
+          "slowest": "04:44",
+          "average_seconds": 234
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:04",
+          "average": "02:51",
+          "slowest": "04:13",
+          "average_seconds": 171
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:30",
+          "average": "03:52",
+          "slowest": "04:26",
+          "average_seconds": 232
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "02:05",
+          "average": "03:26",
+          "slowest": "04:30",
+          "average_seconds": 206
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:03",
+          "average": "03:36",
+          "slowest": "03:55",
+          "average_seconds": 216
+        },
+        {
+          "split": "Row",
+          "fastest": "03:41",
+          "average": "03:56",
+          "slowest": "04:20",
+          "average_seconds": 236
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:32",
+          "average": "04:00",
+          "slowest": "04:57",
+          "average_seconds": 240
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:15",
+          "average": "01:33",
+          "slowest": "02:09",
+          "average_seconds": 93
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:30",
+          "average": "03:56",
+          "slowest": "04:37",
+          "average_seconds": 236
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:22",
+          "average": "03:20",
+          "slowest": "04:36",
+          "average_seconds": 200
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:17",
+          "average": "04:53",
+          "slowest": "09:16",
+          "average_seconds": 293
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:30",
+          "average": "04:44",
+          "slowest": "06:08",
+          "average_seconds": 284
+        }
+      ]
+    },
+    {
+      "name": "Domen Dornik",
+      "timings_url": "https://www.hyresult.com/athlete/domen-dornik?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:28",
+          "average": "03:13",
+          "slowest": "04:48",
+          "average_seconds": 193
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:14",
+          "average": "03:38",
+          "slowest": "03:56",
+          "average_seconds": 218
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:05",
+          "average": "03:22",
+          "slowest": "03:41",
+          "average_seconds": 202
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:21",
+          "average": "01:52",
+          "slowest": "02:39",
+          "average_seconds": 112
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:03",
+          "average": "03:26",
+          "slowest": "03:42",
+          "average_seconds": 206
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "01:46",
+          "average": "03:26",
+          "slowest": "06:45",
+          "average_seconds": 206
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:07",
+          "average": "03:29",
+          "slowest": "03:49",
+          "average_seconds": 209
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "02:01",
+          "average": "02:41",
+          "slowest": "03:22",
+          "average_seconds": 161
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:02",
+          "average": "03:29",
+          "slowest": "03:52",
+          "average_seconds": 209
+        },
+        {
+          "split": "Row",
+          "fastest": "03:34",
+          "average": "03:50",
+          "slowest": "04:05",
+          "average_seconds": 230
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:04",
+          "average": "03:28",
+          "slowest": "03:44",
+          "average_seconds": 208
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:05",
+          "average": "01:27",
+          "slowest": "01:43",
+          "average_seconds": 87
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:05",
+          "average": "03:28",
+          "slowest": "03:46",
+          "average_seconds": 208
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:06",
+          "average": "02:40",
+          "slowest": "03:23",
+          "average_seconds": 160
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:48",
+          "average": "03:44",
+          "slowest": "04:07",
+          "average_seconds": 224
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:20",
+          "average": "04:09",
+          "slowest": "05:59",
+          "average_seconds": 249
+        }
+      ]
+    },
+    {
+      "name": "Dieter Schwarzkopf",
+      "timings_url": "https://www.hyresult.com/athlete/dieter-schwarzkopf?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "01:37",
+          "average": "03:18",
+          "slowest": "04:27",
+          "average_seconds": 198
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:24",
+          "average": "03:46",
+          "slowest": "04:17",
+          "average_seconds": 226
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:04",
+          "average": "03:40",
+          "slowest": "04:29",
+          "average_seconds": 220
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:14",
+          "average": "02:18",
+          "slowest": "04:06",
+          "average_seconds": 138
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:08",
+          "average": "03:54",
+          "slowest": "04:43",
+          "average_seconds": 234
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "01:59",
+          "average": "04:02",
+          "slowest": "09:32",
+          "average_seconds": 242
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:11",
+          "average": "03:50",
+          "slowest": "04:41",
+          "average_seconds": 230
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:36",
+          "average": "02:29",
+          "slowest": "03:38",
+          "average_seconds": 149
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:11",
+          "average": "04:02",
+          "slowest": "07:52",
+          "average_seconds": 242
+        },
+        {
+          "split": "Row",
+          "fastest": "03:34",
+          "average": "04:04",
+          "slowest": "04:23",
+          "average_seconds": 244
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:13",
+          "average": "03:53",
+          "slowest": "04:30",
+          "average_seconds": 233
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:05",
+          "average": "01:46",
+          "slowest": "03:59",
+          "average_seconds": 106
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:09",
+          "average": "03:54",
+          "slowest": "04:44",
+          "average_seconds": 234
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:05",
+          "average": "02:47",
+          "slowest": "04:44",
+          "average_seconds": 167
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:14",
+          "average": "04:13",
+          "slowest": "05:20",
+          "average_seconds": 253
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:20",
+          "average": "04:43",
+          "slowest": "11:13",
+          "average_seconds": 283
+        }
+      ]
+    },
+    {
+      "name": "Danny Rae",
+      "timings_url": "https://www.hyresult.com/athlete/danny-rae?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:30",
+          "average": "03:49",
+          "slowest": "05:52",
+          "average_seconds": 229
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:14",
+          "average": "03:43",
+          "slowest": "04:14",
+          "average_seconds": 223
+        },
+        {
+          "split": "Running 2",
+          "fastest": "02:54",
+          "average": "03:42",
+          "slowest": "05:45",
+          "average_seconds": 222
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:11",
+          "average": "01:59",
+          "slowest": "03:29",
+          "average_seconds": 119
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:04",
+          "average": "03:55",
+          "slowest": "05:53",
+          "average_seconds": 235
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:00",
+          "average": "03:16",
+          "slowest": "07:19",
+          "average_seconds": 196
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:08",
+          "average": "04:00",
+          "slowest": "06:11",
+          "average_seconds": 240
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:34",
+          "average": "02:42",
+          "slowest": "04:31",
+          "average_seconds": 162
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:05",
+          "average": "04:00",
+          "slowest": "06:32",
+          "average_seconds": 240
+        },
+        {
+          "split": "Row",
+          "fastest": "03:32",
+          "average": "03:56",
+          "slowest": "04:43",
+          "average_seconds": 236
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:03",
+          "average": "04:00",
+          "slowest": "06:30",
+          "average_seconds": 240
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:07",
+          "average": "01:27",
+          "slowest": "02:01",
+          "average_seconds": 87
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:07",
+          "average": "04:03",
+          "slowest": "06:28",
+          "average_seconds": 243
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:03",
+          "average": "02:55",
+          "slowest": "04:18",
+          "average_seconds": 175
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:05",
+          "average": "04:10",
+          "slowest": "07:21",
+          "average_seconds": 250
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:14",
+          "average": "04:23",
+          "slowest": "09:21",
+          "average_seconds": 263
+        }
+      ]
+    },
+    {
+      "name": "Charlie Botterill",
+      "timings_url": "https://www.hyresult.com/athlete/charlie-botterill?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:10",
+          "average": "03:29",
+          "slowest": "04:40",
+          "average_seconds": 209
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:14",
+          "average": "03:36",
+          "slowest": "03:50",
+          "average_seconds": 216
+        },
+        {
+          "split": "Running 2",
+          "fastest": "02:50",
+          "average": "03:31",
+          "slowest": "04:24",
+          "average_seconds": 211
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:09",
+          "average": "01:59",
+          "slowest": "04:05",
+          "average_seconds": 119
+        },
+        {
+          "split": "Running 3",
+          "fastest": "02:50",
+          "average": "03:40",
+          "slowest": "04:34",
+          "average_seconds": 220
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "01:51",
+          "average": "03:00",
+          "slowest": "05:28",
+          "average_seconds": 180
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:01",
+          "average": "03:43",
+          "slowest": "04:30",
+          "average_seconds": 223
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:28",
+          "average": "02:43",
+          "slowest": "05:19",
+          "average_seconds": 163
+        },
+        {
+          "split": "Running 5",
+          "fastest": "02:48",
+          "average": "03:42",
+          "slowest": "04:30",
+          "average_seconds": 222
+        },
+        {
+          "split": "Row",
+          "fastest": "03:26",
+          "average": "03:48",
+          "slowest": "04:26",
+          "average_seconds": 228
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:12",
+          "average": "03:47",
+          "slowest": "04:33",
+          "average_seconds": 227
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:10",
+          "average": "01:40",
+          "slowest": "03:25",
+          "average_seconds": 100
+        },
+        {
+          "split": "Running 7",
+          "fastest": "02:58",
+          "average": "03:46",
+          "slowest": "04:48",
+          "average_seconds": 226
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "01:44",
+          "average": "02:44",
+          "slowest": "05:17",
+          "average_seconds": 164
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:29",
+          "average": "03:51",
+          "slowest": "04:56",
+          "average_seconds": 231
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:54",
+          "average": "03:59",
+          "slowest": "06:37",
+          "average_seconds": 239
+        }
+      ]
+    },
+    {
+      "name": "Guillaume Levoy",
+      "timings_url": "https://www.hyresult.com/athlete/guillaume-levoy?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:54",
+          "average": "03:45",
+          "slowest": "05:10",
+          "average_seconds": 225
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:24",
+          "average": "03:41",
+          "slowest": "03:53",
+          "average_seconds": 221
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:03",
+          "average": "03:20",
+          "slowest": "03:41",
+          "average_seconds": 200
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:10",
+          "average": "02:02",
+          "slowest": "02:58",
+          "average_seconds": 122
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:14",
+          "average": "03:32",
+          "slowest": "03:55",
+          "average_seconds": 212
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:40",
+          "average": "03:45",
+          "slowest": "06:51",
+          "average_seconds": 225
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:14",
+          "average": "03:31",
+          "slowest": "03:50",
+          "average_seconds": 211
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:38",
+          "average": "02:25",
+          "slowest": "02:54",
+          "average_seconds": 145
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:19",
+          "average": "03:36",
+          "slowest": "03:59",
+          "average_seconds": 216
+        },
+        {
+          "split": "Row",
+          "fastest": "03:35",
+          "average": "03:54",
+          "slowest": "04:19",
+          "average_seconds": 234
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:20",
+          "average": "03:34",
+          "slowest": "03:54",
+          "average_seconds": 214
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:09",
+          "average": "01:28",
+          "slowest": "02:00",
+          "average_seconds": 88
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:24",
+          "average": "03:36",
+          "slowest": "03:54",
+          "average_seconds": 216
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:14",
+          "average": "02:48",
+          "slowest": "03:21",
+          "average_seconds": 168
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:02",
+          "average": "03:56",
+          "slowest": "04:32",
+          "average_seconds": 236
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:14",
+          "average": "04:14",
+          "slowest": "06:06",
+          "average_seconds": 254
+        }
+      ]
+    },
+    {
+      "name": "Federico Ruanova",
+      "timings_url": "https://www.hyresult.com/athlete/federico-ruanova?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "04:04",
+          "average": "04:04",
+          "slowest": "04:04",
+          "average_seconds": 244
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:44",
+          "average": "03:44",
+          "slowest": "03:44",
+          "average_seconds": 224
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:27",
+          "average": "03:27",
+          "slowest": "03:27",
+          "average_seconds": 207
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "-",
+          "average": "-",
+          "slowest": "-",
+          "average_seconds": null
+        },
+        {
+          "split": "Running 3",
+          "fastest": "-",
+          "average": "-",
+          "slowest": "-",
+          "average_seconds": null
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "-",
+          "average": "-",
+          "slowest": "-",
+          "average_seconds": null
+        },
+        {
+          "split": "Running 4",
+          "fastest": "-",
+          "average": "-",
+          "slowest": "-",
+          "average_seconds": null
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "-",
+          "average": "-",
+          "slowest": "-",
+          "average_seconds": null
+        },
+        {
+          "split": "Running 5",
+          "fastest": "-",
+          "average": "-",
+          "slowest": "-",
+          "average_seconds": null
+        },
+        {
+          "split": "Row",
+          "fastest": "03:49",
+          "average": "03:49",
+          "slowest": "03:49",
+          "average_seconds": 229
+        },
+        {
+          "split": "Running 6",
+          "fastest": "-",
+          "average": "-",
+          "slowest": "-",
+          "average_seconds": null
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "-",
+          "average": "-",
+          "slowest": "-",
+          "average_seconds": null
+        },
+        {
+          "split": "Running 7",
+          "fastest": "-",
+          "average": "-",
+          "slowest": "-",
+          "average_seconds": null
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "-",
+          "average": "-",
+          "slowest": "-",
+          "average_seconds": null
+        },
+        {
+          "split": "Running 8",
+          "fastest": "-",
+          "average": "-",
+          "slowest": "-",
+          "average_seconds": null
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "-",
+          "average": "-",
+          "slowest": "-",
+          "average_seconds": null
+        }
+      ]
+    },
+    {
+      "name": "Aaron Woodman",
+      "timings_url": "https://www.hyresult.com/athlete/aaron-woodman?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:26",
+          "average": "03:37",
+          "slowest": "05:03",
+          "average_seconds": 217
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:20",
+          "average": "03:49",
+          "slowest": "04:08",
+          "average_seconds": 229
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:09",
+          "average": "03:34",
+          "slowest": "04:31",
+          "average_seconds": 214
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:09",
+          "average": "02:14",
+          "slowest": "03:49",
+          "average_seconds": 134
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:15",
+          "average": "03:42",
+          "slowest": "04:24",
+          "average_seconds": 222
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "01:57",
+          "average": "03:19",
+          "slowest": "05:30",
+          "average_seconds": 199
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:17",
+          "average": "03:44",
+          "slowest": "04:22",
+          "average_seconds": 224
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:37",
+          "average": "02:41",
+          "slowest": "03:53",
+          "average_seconds": 161
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:19",
+          "average": "03:46",
+          "slowest": "04:23",
+          "average_seconds": 226
+        },
+        {
+          "split": "Row",
+          "fastest": "03:40",
+          "average": "04:02",
+          "slowest": "04:22",
+          "average_seconds": 242
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:16",
+          "average": "03:44",
+          "slowest": "04:26",
+          "average_seconds": 224
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:01",
+          "average": "01:20",
+          "slowest": "01:37",
+          "average_seconds": 80
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:15",
+          "average": "03:44",
+          "slowest": "04:34",
+          "average_seconds": 224
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:00",
+          "average": "03:00",
+          "slowest": "03:49",
+          "average_seconds": 180
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:58",
+          "average": "03:53",
+          "slowest": "04:29",
+          "average_seconds": 233
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:07",
+          "average": "04:06",
+          "slowest": "07:03",
+          "average_seconds": 246
+        }
+      ]
+    },
+    {
+      "name": "David Parkin",
+      "timings_url": "https://www.hyresult.com/athlete/david-parkin?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:27",
+          "average": "03:19",
+          "slowest": "04:48",
+          "average_seconds": 199
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:20",
+          "average": "03:48",
+          "slowest": "04:04",
+          "average_seconds": 228
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:06",
+          "average": "03:32",
+          "slowest": "03:54",
+          "average_seconds": 212
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:09",
+          "average": "02:27",
+          "slowest": "03:47",
+          "average_seconds": 147
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:11",
+          "average": "03:41",
+          "slowest": "04:16",
+          "average_seconds": 221
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:09",
+          "average": "03:38",
+          "slowest": "06:26",
+          "average_seconds": 218
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:13",
+          "average": "03:45",
+          "slowest": "04:29",
+          "average_seconds": 225
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:37",
+          "average": "02:44",
+          "slowest": "03:21",
+          "average_seconds": 164
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:16",
+          "average": "03:47",
+          "slowest": "04:17",
+          "average_seconds": 227
+        },
+        {
+          "split": "Row",
+          "fastest": "03:41",
+          "average": "04:02",
+          "slowest": "04:15",
+          "average_seconds": 242
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:13",
+          "average": "03:45",
+          "slowest": "04:08",
+          "average_seconds": 225
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:07",
+          "average": "01:35",
+          "slowest": "02:10",
+          "average_seconds": 95
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:16",
+          "average": "03:49",
+          "slowest": "04:16",
+          "average_seconds": 229
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "01:53",
+          "average": "02:51",
+          "slowest": "03:39",
+          "average_seconds": 171
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:58",
+          "average": "04:10",
+          "slowest": "04:56",
+          "average_seconds": 250
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:07",
+          "average": "05:18",
+          "slowest": "07:28",
+          "average_seconds": 318
+        }
+      ]
+    },
+    {
+      "name": "Hidde Weersma",
+      "timings_url": "https://www.hyresult.com/athlete/hidde-weersma?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:21",
+          "average": "03:33",
+          "slowest": "05:43",
+          "average_seconds": 213
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:19",
+          "average": "03:39",
+          "slowest": "04:34",
+          "average_seconds": 219
+        },
+        {
+          "split": "Running 2",
+          "fastest": "02:38",
+          "average": "03:33",
+          "slowest": "04:09",
+          "average_seconds": 213
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:06",
+          "average": "02:12",
+          "slowest": "04:08",
+          "average_seconds": 132
+        },
+        {
+          "split": "Running 3",
+          "fastest": "02:54",
+          "average": "03:41",
+          "slowest": "05:49",
+          "average_seconds": 221
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "01:54",
+          "average": "03:14",
+          "slowest": "05:18",
+          "average_seconds": 194
+        },
+        {
+          "split": "Running 4",
+          "fastest": "02:39",
+          "average": "03:41",
+          "slowest": "04:17",
+          "average_seconds": 221
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:43",
+          "average": "02:38",
+          "slowest": "04:27",
+          "average_seconds": 158
+        },
+        {
+          "split": "Running 5",
+          "fastest": "02:42",
+          "average": "03:43",
+          "slowest": "04:19",
+          "average_seconds": 223
+        },
+        {
+          "split": "Row",
+          "fastest": "03:32",
+          "average": "03:51",
+          "slowest": "04:14",
+          "average_seconds": 231
+        },
+        {
+          "split": "Running 6",
+          "fastest": "02:35",
+          "average": "03:48",
+          "slowest": "06:06",
+          "average_seconds": 228
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:00",
+          "average": "01:32",
+          "slowest": "02:36",
+          "average_seconds": 92
+        },
+        {
+          "split": "Running 7",
+          "fastest": "02:50",
+          "average": "03:49",
+          "slowest": "04:27",
+          "average_seconds": 229
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:00",
+          "average": "02:56",
+          "slowest": "04:51",
+          "average_seconds": 176
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:43",
+          "average": "03:53",
+          "slowest": "04:38",
+          "average_seconds": 233
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:55",
+          "average": "10:04",
+          "slowest": "4:02:41",
+          "average_seconds": 604
+        }
+      ]
+    },
+    {
+      "name": "Roberto Viciedo Gimeno",
+      "timings_url": "https://www.hyresult.com/athlete/roberto-viciedo-gimeno?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "03:04",
+          "average": "03:38",
+          "slowest": "04:22",
+          "average_seconds": 218
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:20",
+          "average": "03:47",
+          "slowest": "04:06",
+          "average_seconds": 227
+        },
+        {
+          "split": "Running 2",
+          "fastest": "02:58",
+          "average": "03:36",
+          "slowest": "04:05",
+          "average_seconds": 216
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:24",
+          "average": "02:35",
+          "slowest": "04:01",
+          "average_seconds": 155
+        },
+        {
+          "split": "Running 3",
+          "fastest": "02:56",
+          "average": "03:46",
+          "slowest": "04:24",
+          "average_seconds": 226
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "01:57",
+          "average": "03:45",
+          "slowest": "05:33",
+          "average_seconds": 225
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:02",
+          "average": "03:46",
+          "slowest": "04:19",
+          "average_seconds": 226
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:37",
+          "average": "02:26",
+          "slowest": "03:21",
+          "average_seconds": 146
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:01",
+          "average": "03:47",
+          "slowest": "04:23",
+          "average_seconds": 227
+        },
+        {
+          "split": "Row",
+          "fastest": "03:43",
+          "average": "04:02",
+          "slowest": "04:29",
+          "average_seconds": 242
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:02",
+          "average": "03:43",
+          "slowest": "04:25",
+          "average_seconds": 223
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:10",
+          "average": "01:41",
+          "slowest": "02:28",
+          "average_seconds": 101
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:05",
+          "average": "03:45",
+          "slowest": "04:14",
+          "average_seconds": 225
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "01:57",
+          "average": "03:04",
+          "slowest": "04:08",
+          "average_seconds": 184
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:42",
+          "average": "03:45",
+          "slowest": "04:36",
+          "average_seconds": 225
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:01",
+          "average": "03:58",
+          "slowest": "06:59",
+          "average_seconds": 238
+        }
+      ]
+    },
+    {
+      "name": "Robert Van Herk",
+      "timings_url": "https://www.hyresult.com/athlete/robert-van-herk?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:29",
+          "average": "03:37",
+          "slowest": "06:18",
+          "average_seconds": 217
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:23",
+          "average": "03:52",
+          "slowest": "04:35",
+          "average_seconds": 232
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:11",
+          "average": "03:41",
+          "slowest": "04:44",
+          "average_seconds": 221
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:10",
+          "average": "01:57",
+          "slowest": "03:31",
+          "average_seconds": 117
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:10",
+          "average": "03:45",
+          "slowest": "04:53",
+          "average_seconds": 225
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "01:55",
+          "average": "03:08",
+          "slowest": "05:13",
+          "average_seconds": 188
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:01",
+          "average": "03:54",
+          "slowest": "07:41",
+          "average_seconds": 234
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:43",
+          "average": "02:32",
+          "slowest": "03:41",
+          "average_seconds": 152
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:13",
+          "average": "03:52",
+          "slowest": "04:20",
+          "average_seconds": 232
+        },
+        {
+          "split": "Row",
+          "fastest": "03:39",
+          "average": "04:09",
+          "slowest": "07:06",
+          "average_seconds": 249
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:13",
+          "average": "03:52",
+          "slowest": "04:45",
+          "average_seconds": 232
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:05",
+          "average": "01:27",
+          "slowest": "02:05",
+          "average_seconds": 87
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:09",
+          "average": "03:49",
+          "slowest": "04:49",
+          "average_seconds": 229
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:06",
+          "average": "02:38",
+          "slowest": "03:53",
+          "average_seconds": 158
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:24",
+          "average": "04:09",
+          "slowest": "05:34",
+          "average_seconds": 249
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:13",
+          "average": "03:51",
+          "slowest": "07:14",
+          "average_seconds": 231
+        }
+      ]
+    },
+    {
+      "name": "Eugenio Bianchi",
+      "timings_url": "https://www.hyresult.com/athlete/eugenio-bianchi?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:01",
+          "average": "03:23",
+          "slowest": "04:17",
+          "average_seconds": 203
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:32",
+          "average": "03:47",
+          "slowest": "04:00",
+          "average_seconds": 227
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:08",
+          "average": "03:30",
+          "slowest": "04:06",
+          "average_seconds": 210
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:26",
+          "average": "02:36",
+          "slowest": "03:27",
+          "average_seconds": 156
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:18",
+          "average": "03:51",
+          "slowest": "07:01",
+          "average_seconds": 231
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:37",
+          "average": "04:07",
+          "slowest": "07:32",
+          "average_seconds": 247
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:13",
+          "average": "03:43",
+          "slowest": "04:13",
+          "average_seconds": 223
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:41",
+          "average": "02:48",
+          "slowest": "03:31",
+          "average_seconds": 168
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:11",
+          "average": "03:43",
+          "slowest": "04:29",
+          "average_seconds": 223
+        },
+        {
+          "split": "Row",
+          "fastest": "03:43",
+          "average": "04:10",
+          "slowest": "04:33",
+          "average_seconds": 250
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:16",
+          "average": "03:42",
+          "slowest": "04:13",
+          "average_seconds": 222
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:16",
+          "average": "01:44",
+          "slowest": "02:23",
+          "average_seconds": 104
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:18",
+          "average": "03:43",
+          "slowest": "04:18",
+          "average_seconds": 223
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:23",
+          "average": "03:18",
+          "slowest": "04:04",
+          "average_seconds": 198
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:46",
+          "average": "03:55",
+          "slowest": "04:33",
+          "average_seconds": 235
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:04",
+          "average": "04:27",
+          "slowest": "05:43",
+          "average_seconds": 267
+        }
+      ]
+    },
+    {
+      "name": "Joffrey Voisin",
+      "timings_url": "https://www.hyresult.com/athlete/joffrey-voisin?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "01:39",
+          "average": "03:30",
+          "slowest": "04:55",
+          "average_seconds": 210
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:24",
+          "average": "03:46",
+          "slowest": "04:11",
+          "average_seconds": 226
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:08",
+          "average": "03:41",
+          "slowest": "04:21",
+          "average_seconds": 221
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:16",
+          "average": "02:17",
+          "slowest": "03:26",
+          "average_seconds": 137
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:14",
+          "average": "03:48",
+          "slowest": "04:28",
+          "average_seconds": 228
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "01:51",
+          "average": "03:18",
+          "slowest": "05:58",
+          "average_seconds": 198
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:12",
+          "average": "03:52",
+          "slowest": "04:31",
+          "average_seconds": 232
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:38",
+          "average": "02:46",
+          "slowest": "03:59",
+          "average_seconds": 166
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:15",
+          "average": "03:57",
+          "slowest": "04:44",
+          "average_seconds": 237
+        },
+        {
+          "split": "Row",
+          "fastest": "03:31",
+          "average": "03:56",
+          "slowest": "04:14",
+          "average_seconds": 236
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:20",
+          "average": "03:56",
+          "slowest": "04:53",
+          "average_seconds": 236
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:14",
+          "average": "01:34",
+          "slowest": "02:30",
+          "average_seconds": 94
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:18",
+          "average": "03:56",
+          "slowest": "04:53",
+          "average_seconds": 236
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "01:59",
+          "average": "02:57",
+          "slowest": "04:05",
+          "average_seconds": 177
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:02",
+          "average": "04:17",
+          "slowest": "05:32",
+          "average_seconds": 257
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:03",
+          "average": "03:36",
+          "slowest": "04:39",
+          "average_seconds": 216
+        }
+      ]
+    },
+    {
+      "name": "Ronan Lindsay",
+      "timings_url": "https://www.hyresult.com/athlete/ronan-lindsay?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:24",
+          "average": "03:21",
+          "slowest": "04:26",
+          "average_seconds": 201
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:23",
+          "average": "03:47",
+          "slowest": "03:54",
+          "average_seconds": 227
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:05",
+          "average": "03:50",
+          "slowest": "06:18",
+          "average_seconds": 230
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:21",
+          "average": "02:22",
+          "slowest": "03:00",
+          "average_seconds": 142
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:12",
+          "average": "04:05",
+          "slowest": "06:34",
+          "average_seconds": 245
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:02",
+          "average": "03:10",
+          "slowest": "03:58",
+          "average_seconds": 190
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:15",
+          "average": "04:09",
+          "slowest": "06:49",
+          "average_seconds": 249
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "02:07",
+          "average": "02:45",
+          "slowest": "03:34",
+          "average_seconds": 165
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:18",
+          "average": "04:18",
+          "slowest": "07:01",
+          "average_seconds": 258
+        },
+        {
+          "split": "Row",
+          "fastest": "03:43",
+          "average": "04:06",
+          "slowest": "04:40",
+          "average_seconds": 246
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:13",
+          "average": "04:18",
+          "slowest": "06:50",
+          "average_seconds": 258
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:08",
+          "average": "01:36",
+          "slowest": "02:34",
+          "average_seconds": 96
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:18",
+          "average": "04:24",
+          "slowest": "06:53",
+          "average_seconds": 264
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:27",
+          "average": "03:21",
+          "slowest": "04:08",
+          "average_seconds": 201
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:56",
+          "average": "03:47",
+          "slowest": "04:51",
+          "average_seconds": 227
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:10",
+          "average": "04:03",
+          "slowest": "05:38",
+          "average_seconds": 243
+        }
+      ]
+    },
+    {
+      "name": "Alen Ploj",
+      "timings_url": "https://www.hyresult.com/athlete/alen-ploj?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:03",
+          "average": "03:25",
+          "slowest": "04:38",
+          "average_seconds": 205
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:13",
+          "average": "03:40",
+          "slowest": "03:58",
+          "average_seconds": 220
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:07",
+          "average": "03:33",
+          "slowest": "04:20",
+          "average_seconds": 213
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:09",
+          "average": "02:07",
+          "slowest": "03:20",
+          "average_seconds": 127
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:16",
+          "average": "03:42",
+          "slowest": "04:10",
+          "average_seconds": 222
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "01:40",
+          "average": "03:14",
+          "slowest": "04:38",
+          "average_seconds": 194
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:00",
+          "average": "03:42",
+          "slowest": "04:12",
+          "average_seconds": 222
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:40",
+          "average": "02:37",
+          "slowest": "03:11",
+          "average_seconds": 157
+        },
+        {
+          "split": "Running 5",
+          "fastest": "02:58",
+          "average": "03:44",
+          "slowest": "04:28",
+          "average_seconds": 224
+        },
+        {
+          "split": "Row",
+          "fastest": "03:27",
+          "average": "03:54",
+          "slowest": "04:20",
+          "average_seconds": 234
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:12",
+          "average": "03:43",
+          "slowest": "04:12",
+          "average_seconds": 223
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:05",
+          "average": "01:31",
+          "slowest": "01:51",
+          "average_seconds": 91
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:02",
+          "average": "03:45",
+          "slowest": "04:24",
+          "average_seconds": 225
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "01:48",
+          "average": "02:57",
+          "slowest": "03:45",
+          "average_seconds": 177
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:51",
+          "average": "03:58",
+          "slowest": "04:49",
+          "average_seconds": 238
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:03",
+          "average": "03:44",
+          "slowest": "04:26",
+          "average_seconds": 224
+        }
+      ]
+    },
+    {
+      "name": "Luis Garcia Rubio",
+      "timings_url": "https://www.hyresult.com/athlete/luis-garcia-rubio?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:58",
+          "average": "03:52",
+          "slowest": "05:12",
+          "average_seconds": 232
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:20",
+          "average": "03:57",
+          "slowest": "04:21",
+          "average_seconds": 237
+        },
+        {
+          "split": "Running 2",
+          "fastest": "02:55",
+          "average": "03:45",
+          "slowest": "05:55",
+          "average_seconds": 225
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:24",
+          "average": "02:39",
+          "slowest": "04:29",
+          "average_seconds": 159
+        },
+        {
+          "split": "Running 3",
+          "fastest": "02:52",
+          "average": "03:58",
+          "slowest": "06:15",
+          "average_seconds": 238
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:23",
+          "average": "03:48",
+          "slowest": "05:18",
+          "average_seconds": 228
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:03",
+          "average": "04:03",
+          "slowest": "07:25",
+          "average_seconds": 243
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:38",
+          "average": "02:25",
+          "slowest": "03:16",
+          "average_seconds": 145
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:01",
+          "average": "04:05",
+          "slowest": "06:31",
+          "average_seconds": 245
+        },
+        {
+          "split": "Row",
+          "fastest": "03:43",
+          "average": "04:11",
+          "slowest": "04:43",
+          "average_seconds": 251
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:11",
+          "average": "04:01",
+          "slowest": "06:34",
+          "average_seconds": 241
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:13",
+          "average": "01:36",
+          "slowest": "02:16",
+          "average_seconds": 96
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:14",
+          "average": "04:05",
+          "slowest": "06:28",
+          "average_seconds": 245
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:00",
+          "average": "03:36",
+          "slowest": "05:36",
+          "average_seconds": 216
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:44",
+          "average": "04:11",
+          "slowest": "07:19",
+          "average_seconds": 251
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:01",
+          "average": "03:53",
+          "slowest": "05:30",
+          "average_seconds": 233
+        }
+      ]
+    },
+    {
+      "name": "Kenny Steger",
+      "timings_url": "https://www.hyresult.com/athlete/kenny-steger?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "03:12",
+          "average": "03:56",
+          "slowest": "05:00",
+          "average_seconds": 236
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:44",
+          "average": "03:51",
+          "slowest": "04:00",
+          "average_seconds": 231
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:10",
+          "average": "03:45",
+          "slowest": "04:46",
+          "average_seconds": 225
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:17",
+          "average": "02:11",
+          "slowest": "03:40",
+          "average_seconds": 131
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:19",
+          "average": "03:52",
+          "slowest": "04:59",
+          "average_seconds": 232
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:24",
+          "average": "03:18",
+          "slowest": "05:01",
+          "average_seconds": 198
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:23",
+          "average": "03:56",
+          "slowest": "05:14",
+          "average_seconds": 236
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "02:04",
+          "average": "02:39",
+          "slowest": "03:12",
+          "average_seconds": 159
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:26",
+          "average": "04:22",
+          "slowest": "07:23",
+          "average_seconds": 262
+        },
+        {
+          "split": "Row",
+          "fastest": "03:56",
+          "average": "04:06",
+          "slowest": "04:15",
+          "average_seconds": 246
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:22",
+          "average": "03:57",
+          "slowest": "05:17",
+          "average_seconds": 237
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "0:58",
+          "average": "01:26",
+          "slowest": "02:25",
+          "average_seconds": 86
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:27",
+          "average": "04:02",
+          "slowest": "05:28",
+          "average_seconds": 242
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:34",
+          "average": "03:12",
+          "slowest": "03:55",
+          "average_seconds": 192
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:45",
+          "average": "04:18",
+          "slowest": "06:04",
+          "average_seconds": 258
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:18",
+          "average": "04:06",
+          "slowest": "05:23",
+          "average_seconds": 246
+        }
+      ]
+    },
+    {
+      "name": "Kieron White",
+      "timings_url": "https://www.hyresult.com/athlete/kieron-white?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:27",
+          "average": "03:20",
+          "slowest": "04:11",
+          "average_seconds": 200
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:24",
+          "average": "03:45",
+          "slowest": "04:11",
+          "average_seconds": 225
+        },
+        {
+          "split": "Running 2",
+          "fastest": "02:48",
+          "average": "03:26",
+          "slowest": "04:01",
+          "average_seconds": 206
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:22",
+          "average": "01:58",
+          "slowest": "03:09",
+          "average_seconds": 118
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:02",
+          "average": "03:36",
+          "slowest": "04:14",
+          "average_seconds": 216
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "01:50",
+          "average": "03:06",
+          "slowest": "04:39",
+          "average_seconds": 186
+        },
+        {
+          "split": "Running 4",
+          "fastest": "02:57",
+          "average": "03:39",
+          "slowest": "04:21",
+          "average_seconds": 219
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:39",
+          "average": "02:52",
+          "slowest": "04:34",
+          "average_seconds": 172
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:06",
+          "average": "03:44",
+          "slowest": "04:29",
+          "average_seconds": 224
+        },
+        {
+          "split": "Row",
+          "fastest": "03:30",
+          "average": "04:03",
+          "slowest": "04:32",
+          "average_seconds": 243
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:06",
+          "average": "03:41",
+          "slowest": "04:22",
+          "average_seconds": 221
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:00",
+          "average": "01:31",
+          "slowest": "02:14",
+          "average_seconds": 91
+        },
+        {
+          "split": "Running 7",
+          "fastest": "02:53",
+          "average": "03:47",
+          "slowest": "04:29",
+          "average_seconds": 227
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "01:44",
+          "average": "03:00",
+          "slowest": "04:29",
+          "average_seconds": 180
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:45",
+          "average": "04:02",
+          "slowest": "04:56",
+          "average_seconds": 242
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:10",
+          "average": "04:05",
+          "slowest": "06:21",
+          "average_seconds": 245
+        }
+      ]
+    },
+    {
       "name": "Francesca Campitiello",
       "timings_url": "https://www.hyresult.com/athlete/francesca-campitiello?tab=timings",
       "timings": [
@@ -505,105 +3495,2819 @@
           "average_seconds": 205
         }
       ]
+    },
+    {
+      "name": "Lucy Procter",
+      "timings_url": "https://www.hyresult.com/athlete/lucy-procter?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:26",
+          "average": "03:41",
+          "slowest": "05:09",
+          "average_seconds": 221
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "0:08",
+          "average": "04:07",
+          "slowest": "04:47",
+          "average_seconds": 247
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:23",
+          "average": "04:03",
+          "slowest": "08:27",
+          "average_seconds": 243
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:21",
+          "average": "02:12",
+          "slowest": "03:29",
+          "average_seconds": 132
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:34",
+          "average": "04:06",
+          "slowest": "04:42",
+          "average_seconds": 246
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:16",
+          "average": "03:59",
+          "slowest": "08:04",
+          "average_seconds": 239
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:30",
+          "average": "04:03",
+          "slowest": "04:36",
+          "average_seconds": 243
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:47",
+          "average": "03:08",
+          "slowest": "05:00",
+          "average_seconds": 188
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:28",
+          "average": "04:06",
+          "slowest": "04:33",
+          "average_seconds": 246
+        },
+        {
+          "split": "Row",
+          "fastest": "03:43",
+          "average": "04:32",
+          "slowest": "04:54",
+          "average_seconds": 272
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:28",
+          "average": "04:09",
+          "slowest": "07:29",
+          "average_seconds": 249
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:18",
+          "average": "01:50",
+          "slowest": "03:31",
+          "average_seconds": 110
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:34",
+          "average": "04:07",
+          "slowest": "04:39",
+          "average_seconds": 247
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:10",
+          "average": "03:06",
+          "slowest": "04:04",
+          "average_seconds": 186
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:58",
+          "average": "04:08",
+          "slowest": "05:07",
+          "average_seconds": 248
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:38",
+          "average": "03:53",
+          "slowest": "06:03",
+          "average_seconds": 233
+        }
+      ]
+    },
+    {
+      "name": "sophia Parvizi Wayne",
+      "timings_url": "https://www.hyresult.com/athlete/sophia-parvizi-wayne?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:53",
+          "average": "04:01",
+          "slowest": "05:15",
+          "average_seconds": 241
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "04:08",
+          "average": "04:14",
+          "slowest": "04:20",
+          "average_seconds": 254
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:22",
+          "average": "03:38",
+          "slowest": "03:58",
+          "average_seconds": 218
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:32",
+          "average": "02:49",
+          "slowest": "03:19",
+          "average_seconds": 169
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:27",
+          "average": "03:50",
+          "slowest": "04:15",
+          "average_seconds": 230
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "03:05",
+          "average": "04:25",
+          "slowest": "05:27",
+          "average_seconds": 265
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:28",
+          "average": "03:51",
+          "slowest": "04:20",
+          "average_seconds": 231
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "03:25",
+          "average": "04:22",
+          "slowest": "05:29",
+          "average_seconds": 262
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:31",
+          "average": "03:54",
+          "slowest": "04:20",
+          "average_seconds": 234
+        },
+        {
+          "split": "Row",
+          "fastest": "04:20",
+          "average": "04:28",
+          "slowest": "04:44",
+          "average_seconds": 268
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:28",
+          "average": "03:52",
+          "slowest": "04:21",
+          "average_seconds": 232
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:25",
+          "average": "01:53",
+          "slowest": "02:24",
+          "average_seconds": 113
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:32",
+          "average": "03:51",
+          "slowest": "04:18",
+          "average_seconds": 231
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:50",
+          "average": "03:38",
+          "slowest": "04:25",
+          "average_seconds": 218
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:50",
+          "average": "04:05",
+          "slowest": "04:24",
+          "average_seconds": 245
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:27",
+          "average": "05:11",
+          "slowest": "06:07",
+          "average_seconds": 311
+        }
+      ]
+    },
+    {
+      "name": "Alice Schürer",
+      "timings_url": "https://www.hyresult.com/athlete/alice-schuerer?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:52",
+          "average": "03:43",
+          "slowest": "04:31",
+          "average_seconds": 223
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:31",
+          "average": "04:30",
+          "slowest": "04:49",
+          "average_seconds": 270
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:26",
+          "average": "04:02",
+          "slowest": "05:04",
+          "average_seconds": 242
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:07",
+          "average": "02:37",
+          "slowest": "04:03",
+          "average_seconds": 157
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:29",
+          "average": "04:04",
+          "slowest": "04:47",
+          "average_seconds": 244
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "01:57",
+          "average": "04:22",
+          "slowest": "07:13",
+          "average_seconds": 262
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:30",
+          "average": "04:04",
+          "slowest": "04:59",
+          "average_seconds": 244
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:56",
+          "average": "03:09",
+          "slowest": "04:08",
+          "average_seconds": 189
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:32",
+          "average": "04:18",
+          "slowest": "07:36",
+          "average_seconds": 258
+        },
+        {
+          "split": "Row",
+          "fastest": "03:38",
+          "average": "04:42",
+          "slowest": "05:11",
+          "average_seconds": 282
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:32",
+          "average": "04:09",
+          "slowest": "04:57",
+          "average_seconds": 249
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:12",
+          "average": "01:58",
+          "slowest": "03:17",
+          "average_seconds": 118
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:34",
+          "average": "04:06",
+          "slowest": "05:07",
+          "average_seconds": 246
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:09",
+          "average": "03:16",
+          "slowest": "04:25",
+          "average_seconds": 196
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:24",
+          "average": "04:25",
+          "slowest": "05:22",
+          "average_seconds": 265
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:34",
+          "average": "04:04",
+          "slowest": "05:15",
+          "average_seconds": 244
+        }
+      ]
+    },
+    {
+      "name": "Katherine Fahsbender",
+      "timings_url": "https://www.hyresult.com/athlete/katherine-fahsbender?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:50",
+          "average": "04:00",
+          "slowest": "05:15",
+          "average_seconds": 240
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:40",
+          "average": "04:03",
+          "slowest": "04:26",
+          "average_seconds": 243
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:15",
+          "average": "04:15",
+          "slowest": "09:04",
+          "average_seconds": 255
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:23",
+          "average": "02:02",
+          "slowest": "03:39",
+          "average_seconds": 122
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:21",
+          "average": "03:59",
+          "slowest": "04:37",
+          "average_seconds": 239
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:51",
+          "average": "03:26",
+          "slowest": "04:10",
+          "average_seconds": 206
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:19",
+          "average": "03:59",
+          "slowest": "04:36",
+          "average_seconds": 239
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "02:11",
+          "average": "02:58",
+          "slowest": "03:56",
+          "average_seconds": 178
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:22",
+          "average": "04:01",
+          "slowest": "04:37",
+          "average_seconds": 241
+        },
+        {
+          "split": "Row",
+          "fastest": "04:04",
+          "average": "04:22",
+          "slowest": "04:38",
+          "average_seconds": 262
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:22",
+          "average": "03:56",
+          "slowest": "04:28",
+          "average_seconds": 236
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:24",
+          "average": "01:44",
+          "slowest": "02:31",
+          "average_seconds": 104
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:23",
+          "average": "03:57",
+          "slowest": "04:29",
+          "average_seconds": 237
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:26",
+          "average": "03:01",
+          "slowest": "03:53",
+          "average_seconds": 181
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:41",
+          "average": "04:17",
+          "slowest": "04:47",
+          "average_seconds": 257
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:02",
+          "average": "03:37",
+          "slowest": "05:09",
+          "average_seconds": 217
+        }
+      ]
+    },
+    {
+      "name": "Tanja Stroschneider",
+      "timings_url": "https://www.hyresult.com/athlete/tanja-stroschneider?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:16",
+          "average": "03:51",
+          "slowest": "05:13",
+          "average_seconds": 231
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "04:05",
+          "average": "04:14",
+          "slowest": "04:22",
+          "average_seconds": 254
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:24",
+          "average": "03:45",
+          "slowest": "04:06",
+          "average_seconds": 225
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:33",
+          "average": "02:26",
+          "slowest": "03:10",
+          "average_seconds": 146
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:28",
+          "average": "03:53",
+          "slowest": "04:23",
+          "average_seconds": 233
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:58",
+          "average": "04:04",
+          "slowest": "05:14",
+          "average_seconds": 244
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:29",
+          "average": "03:53",
+          "slowest": "04:25",
+          "average_seconds": 233
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "02:49",
+          "average": "03:33",
+          "slowest": "04:32",
+          "average_seconds": 213
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:36",
+          "average": "03:59",
+          "slowest": "04:24",
+          "average_seconds": 239
+        },
+        {
+          "split": "Row",
+          "fastest": "04:18",
+          "average": "04:26",
+          "slowest": "04:47",
+          "average_seconds": 266
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:30",
+          "average": "03:55",
+          "slowest": "04:31",
+          "average_seconds": 235
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:25",
+          "average": "02:01",
+          "slowest": "03:19",
+          "average_seconds": 121
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:33",
+          "average": "03:58",
+          "slowest": "04:27",
+          "average_seconds": 238
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:37",
+          "average": "03:36",
+          "slowest": "04:56",
+          "average_seconds": 216
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:10",
+          "average": "04:15",
+          "slowest": "05:05",
+          "average_seconds": 255
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:24",
+          "average": "04:19",
+          "slowest": "08:01",
+          "average_seconds": 259
+        }
+      ]
+    },
+    {
+      "name": "Lucy Davis",
+      "timings_url": "https://www.hyresult.com/athlete/lucy-davis?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:32",
+          "average": "03:51",
+          "slowest": "05:18",
+          "average_seconds": 231
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:44",
+          "average": "04:08",
+          "slowest": "04:40",
+          "average_seconds": 248
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:05",
+          "average": "04:15",
+          "slowest": "07:58",
+          "average_seconds": 255
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:07",
+          "average": "01:57",
+          "slowest": "03:19",
+          "average_seconds": 117
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:39",
+          "average": "04:24",
+          "slowest": "08:08",
+          "average_seconds": 264
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:17",
+          "average": "03:30",
+          "slowest": "04:38",
+          "average_seconds": 210
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:38",
+          "average": "04:27",
+          "slowest": "08:01",
+          "average_seconds": 267
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "02:12",
+          "average": "02:59",
+          "slowest": "04:39",
+          "average_seconds": 179
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:43",
+          "average": "04:31",
+          "slowest": "08:54",
+          "average_seconds": 271
+        },
+        {
+          "split": "Row",
+          "fastest": "04:04",
+          "average": "04:27",
+          "slowest": "05:32",
+          "average_seconds": 267
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:38",
+          "average": "04:36",
+          "slowest": "09:42",
+          "average_seconds": 276
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:26",
+          "average": "01:56",
+          "slowest": "04:12",
+          "average_seconds": 116
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:15",
+          "average": "04:27",
+          "slowest": "08:28",
+          "average_seconds": 267
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:09",
+          "average": "02:57",
+          "slowest": "03:49",
+          "average_seconds": 177
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:15",
+          "average": "04:40",
+          "slowest": "08:35",
+          "average_seconds": 280
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:22",
+          "average": "03:36",
+          "slowest": "05:31",
+          "average_seconds": 216
+        }
+      ]
+    },
+    {
+      "name": "Gloria Corbetta",
+      "timings_url": "https://www.hyresult.com/athlete/gloria-corbetta?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:35",
+          "average": "04:29",
+          "slowest": "05:23",
+          "average_seconds": 269
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:52",
+          "average": "10:38",
+          "slowest": "55:47",
+          "average_seconds": 638
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:21",
+          "average": "03:50",
+          "slowest": "04:24",
+          "average_seconds": 230
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:36",
+          "average": "02:00",
+          "slowest": "03:08",
+          "average_seconds": 120
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:26",
+          "average": "03:52",
+          "slowest": "04:33",
+          "average_seconds": 232
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:39",
+          "average": "03:26",
+          "slowest": "04:55",
+          "average_seconds": 206
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:32",
+          "average": "03:52",
+          "slowest": "04:36",
+          "average_seconds": 232
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "02:21",
+          "average": "03:00",
+          "slowest": "03:38",
+          "average_seconds": 180
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:29",
+          "average": "03:52",
+          "slowest": "04:42",
+          "average_seconds": 232
+        },
+        {
+          "split": "Row",
+          "fastest": "03:50",
+          "average": "04:13",
+          "slowest": "04:27",
+          "average_seconds": 253
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:31",
+          "average": "03:56",
+          "slowest": "04:35",
+          "average_seconds": 236
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:26",
+          "average": "01:30",
+          "slowest": "01:40",
+          "average_seconds": 90
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:27",
+          "average": "04:08",
+          "slowest": "06:46",
+          "average_seconds": 248
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:14",
+          "average": "02:47",
+          "slowest": "03:29",
+          "average_seconds": 167
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:54",
+          "average": "03:51",
+          "slowest": "04:39",
+          "average_seconds": 231
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:22",
+          "average": "03:21",
+          "slowest": "04:31",
+          "average_seconds": 201
+        }
+      ]
+    },
+    {
+      "name": "Sinéad Bent",
+      "timings_url": "https://www.hyresult.com/athlete/sinead-bent?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:38",
+          "average": "04:00",
+          "slowest": "04:50",
+          "average_seconds": 240
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:29",
+          "average": "04:15",
+          "slowest": "04:45",
+          "average_seconds": 255
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:05",
+          "average": "03:33",
+          "slowest": "03:52",
+          "average_seconds": 213
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:16",
+          "average": "02:03",
+          "slowest": "03:27",
+          "average_seconds": 123
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:25",
+          "average": "03:48",
+          "slowest": "04:09",
+          "average_seconds": 228
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:25",
+          "average": "03:36",
+          "slowest": "05:28",
+          "average_seconds": 216
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:23",
+          "average": "03:50",
+          "slowest": "04:25",
+          "average_seconds": 230
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "02:21",
+          "average": "03:14",
+          "slowest": "03:59",
+          "average_seconds": 194
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:14",
+          "average": "03:49",
+          "slowest": "04:25",
+          "average_seconds": 229
+        },
+        {
+          "split": "Row",
+          "fastest": "03:35",
+          "average": "04:26",
+          "slowest": "05:05",
+          "average_seconds": 266
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:20",
+          "average": "03:45",
+          "slowest": "04:07",
+          "average_seconds": 225
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:06",
+          "average": "01:34",
+          "slowest": "02:14",
+          "average_seconds": 94
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:15",
+          "average": "03:51",
+          "slowest": "04:29",
+          "average_seconds": 231
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:17",
+          "average": "03:08",
+          "slowest": "04:08",
+          "average_seconds": 188
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:41",
+          "average": "03:33",
+          "slowest": "05:01",
+          "average_seconds": 213
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:16",
+          "average": "03:30",
+          "slowest": "05:35",
+          "average_seconds": 210
+        }
+      ]
+    },
+    {
+      "name": "Isabell Speer",
+      "timings_url": "https://www.hyresult.com/athlete/isabell-speer?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "03:43",
+          "average": "04:25",
+          "slowest": "05:06",
+          "average_seconds": 265
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "04:23",
+          "average": "04:23",
+          "slowest": "04:23",
+          "average_seconds": 263
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:17",
+          "average": "03:29",
+          "slowest": "03:41",
+          "average_seconds": 209
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:57",
+          "average": "03:00",
+          "slowest": "04:03",
+          "average_seconds": 180
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:22",
+          "average": "03:32",
+          "slowest": "03:41",
+          "average_seconds": 212
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "03:56",
+          "average": "04:35",
+          "slowest": "05:13",
+          "average_seconds": 275
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:23",
+          "average": "03:29",
+          "slowest": "03:35",
+          "average_seconds": 209
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "03:14",
+          "average": "03:45",
+          "slowest": "04:16",
+          "average_seconds": 225
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:29",
+          "average": "03:38",
+          "slowest": "03:46",
+          "average_seconds": 218
+        },
+        {
+          "split": "Row",
+          "fastest": "04:34",
+          "average": "04:35",
+          "slowest": "04:36",
+          "average_seconds": 275
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:32",
+          "average": "03:39",
+          "slowest": "03:45",
+          "average_seconds": 219
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:16",
+          "average": "01:33",
+          "slowest": "01:49",
+          "average_seconds": 93
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:32",
+          "average": "03:41",
+          "slowest": "03:49",
+          "average_seconds": 221
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:43",
+          "average": "03:14",
+          "slowest": "03:44",
+          "average_seconds": 194
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:58",
+          "average": "04:04",
+          "slowest": "04:10",
+          "average_seconds": 244
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:21",
+          "average": "04:34",
+          "slowest": "05:46",
+          "average_seconds": 274
+        }
+      ]
+    },
+    {
+      "name": "Jana Sussmann",
+      "timings_url": "https://www.hyresult.com/athlete/jana-sussmann?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "03:17",
+          "average": "03:23",
+          "slowest": "03:28",
+          "average_seconds": 203
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:49",
+          "average": "04:10",
+          "slowest": "04:31",
+          "average_seconds": 250
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:34",
+          "average": "03:53",
+          "slowest": "04:12",
+          "average_seconds": 233
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "02:19",
+          "average": "02:22",
+          "slowest": "02:24",
+          "average_seconds": 142
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:26",
+          "average": "03:34",
+          "slowest": "03:42",
+          "average_seconds": 214
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:33",
+          "average": "03:34",
+          "slowest": "04:35",
+          "average_seconds": 214
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:15",
+          "average": "03:25",
+          "slowest": "03:34",
+          "average_seconds": 205
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "03:06",
+          "average": "03:12",
+          "slowest": "03:18",
+          "average_seconds": 192
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:13",
+          "average": "03:28",
+          "slowest": "03:43",
+          "average_seconds": 208
+        },
+        {
+          "split": "Row",
+          "fastest": "03:44",
+          "average": "04:17",
+          "slowest": "04:49",
+          "average_seconds": 257
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:26",
+          "average": "03:37",
+          "slowest": "03:48",
+          "average_seconds": 217
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:27",
+          "average": "01:30",
+          "slowest": "01:33",
+          "average_seconds": 90
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:14",
+          "average": "03:26",
+          "slowest": "03:37",
+          "average_seconds": 206
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:20",
+          "average": "02:22",
+          "slowest": "02:23",
+          "average_seconds": 142
+        },
+        {
+          "split": "Running 8",
+          "fastest": "04:03",
+          "average": "04:17",
+          "slowest": "04:31",
+          "average_seconds": 257
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:24",
+          "average": "03:11",
+          "slowest": "03:58",
+          "average_seconds": 191
+        }
+      ]
+    },
+    {
+      "name": "Sophia Kaiser",
+      "timings_url": "https://www.hyresult.com/athlete/sophia-kaiser?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:50",
+          "average": "03:24",
+          "slowest": "03:52",
+          "average_seconds": 204
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "04:00",
+          "average": "04:33",
+          "slowest": "05:11",
+          "average_seconds": 273
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:33",
+          "average": "03:48",
+          "slowest": "04:00",
+          "average_seconds": 228
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:20",
+          "average": "02:12",
+          "slowest": "03:16",
+          "average_seconds": 132
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:41",
+          "average": "03:53",
+          "slowest": "04:11",
+          "average_seconds": 233
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:26",
+          "average": "03:30",
+          "slowest": "05:15",
+          "average_seconds": 210
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:45",
+          "average": "03:57",
+          "slowest": "04:15",
+          "average_seconds": 237
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "02:27",
+          "average": "03:04",
+          "slowest": "04:41",
+          "average_seconds": 184
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:50",
+          "average": "04:00",
+          "slowest": "04:15",
+          "average_seconds": 240
+        },
+        {
+          "split": "Row",
+          "fastest": "04:04",
+          "average": "04:44",
+          "slowest": "05:15",
+          "average_seconds": 284
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:33",
+          "average": "03:52",
+          "slowest": "04:09",
+          "average_seconds": 232
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:26",
+          "average": "01:41",
+          "slowest": "02:01",
+          "average_seconds": 101
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:33",
+          "average": "03:52",
+          "slowest": "04:07",
+          "average_seconds": 232
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:17",
+          "average": "03:01",
+          "slowest": "04:32",
+          "average_seconds": 181
+        },
+        {
+          "split": "Running 8",
+          "fastest": "04:08",
+          "average": "04:21",
+          "slowest": "04:42",
+          "average_seconds": 261
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:27",
+          "average": "03:44",
+          "slowest": "05:33",
+          "average_seconds": 224
+        }
+      ]
+    },
+    {
+      "name": "Imogen Amos",
+      "timings_url": "https://www.hyresult.com/athlete/imogen-amos?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:58",
+          "average": "03:57",
+          "slowest": "04:29",
+          "average_seconds": 237
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:49",
+          "average": "04:29",
+          "slowest": "04:51",
+          "average_seconds": 269
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:20",
+          "average": "03:40",
+          "slowest": "04:10",
+          "average_seconds": 220
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:42",
+          "average": "02:24",
+          "slowest": "03:55",
+          "average_seconds": 144
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:33",
+          "average": "03:55",
+          "slowest": "04:53",
+          "average_seconds": 235
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "03:26",
+          "average": "04:33",
+          "slowest": "07:32",
+          "average_seconds": 273
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:35",
+          "average": "03:53",
+          "slowest": "04:34",
+          "average_seconds": 233
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "02:21",
+          "average": "03:05",
+          "slowest": "03:52",
+          "average_seconds": 185
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:35",
+          "average": "03:58",
+          "slowest": "05:03",
+          "average_seconds": 238
+        },
+        {
+          "split": "Row",
+          "fastest": "04:27",
+          "average": "04:40",
+          "slowest": "04:51",
+          "average_seconds": 280
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:34",
+          "average": "03:53",
+          "slowest": "04:24",
+          "average_seconds": 233
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:30",
+          "average": "01:55",
+          "slowest": "02:18",
+          "average_seconds": 115
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:35",
+          "average": "03:54",
+          "slowest": "04:37",
+          "average_seconds": 234
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:43",
+          "average": "03:24",
+          "slowest": "04:09",
+          "average_seconds": 204
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:00",
+          "average": "04:13",
+          "slowest": "06:08",
+          "average_seconds": 253
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:27",
+          "average": "04:12",
+          "slowest": "04:46",
+          "average_seconds": 252
+        }
+      ]
+    },
+    {
+      "name": "Lauren Griffith",
+      "timings_url": "https://www.hyresult.com/athlete/lauren-griffith?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:14",
+          "average": "04:01",
+          "slowest": "10:25",
+          "average_seconds": 241
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:33",
+          "average": "04:23",
+          "slowest": "05:06",
+          "average_seconds": 263
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:26",
+          "average": "05:42",
+          "slowest": "42:21",
+          "average_seconds": 342
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:16",
+          "average": "02:40",
+          "slowest": "04:46",
+          "average_seconds": 160
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:42",
+          "average": "06:09",
+          "slowest": "47:17",
+          "average_seconds": 369
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:22",
+          "average": "03:59",
+          "slowest": "06:12",
+          "average_seconds": 239
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:32",
+          "average": "06:07",
+          "slowest": "47:17",
+          "average_seconds": 367
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:48",
+          "average": "03:41",
+          "slowest": "06:16",
+          "average_seconds": 221
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:34",
+          "average": "06:29",
+          "slowest": "47:17",
+          "average_seconds": 389
+        },
+        {
+          "split": "Row",
+          "fastest": "02:24",
+          "average": "04:32",
+          "slowest": "05:38",
+          "average_seconds": 272
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:34",
+          "average": "06:15",
+          "slowest": "47:17",
+          "average_seconds": 375
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "0:02",
+          "average": "01:42",
+          "slowest": "02:58",
+          "average_seconds": 102
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:36",
+          "average": "06:20",
+          "slowest": "47:17",
+          "average_seconds": 380
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "01:55",
+          "average": "03:42",
+          "slowest": "07:25",
+          "average_seconds": 222
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:55",
+          "average": "06:39",
+          "slowest": "47:17",
+          "average_seconds": 399
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:41",
+          "average": "04:00",
+          "slowest": "05:49",
+          "average_seconds": 240
+        }
+      ]
+    },
+    {
+      "name": "Mollie Emond",
+      "timings_url": "https://www.hyresult.com/athlete/mollie-emond?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:03",
+          "average": "03:30",
+          "slowest": "05:21",
+          "average_seconds": 210
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:35",
+          "average": "04:03",
+          "slowest": "04:19",
+          "average_seconds": 243
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:09",
+          "average": "03:33",
+          "slowest": "03:51",
+          "average_seconds": 213
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:13",
+          "average": "02:18",
+          "slowest": "04:17",
+          "average_seconds": 138
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:21",
+          "average": "03:42",
+          "slowest": "03:55",
+          "average_seconds": 222
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:30",
+          "average": "03:35",
+          "slowest": "04:52",
+          "average_seconds": 215
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:18",
+          "average": "03:42",
+          "slowest": "03:57",
+          "average_seconds": 222
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "02:15",
+          "average": "03:12",
+          "slowest": "04:16",
+          "average_seconds": 192
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:19",
+          "average": "03:44",
+          "slowest": "04:00",
+          "average_seconds": 224
+        },
+        {
+          "split": "Row",
+          "fastest": "04:04",
+          "average": "04:20",
+          "slowest": "04:33",
+          "average_seconds": 260
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:18",
+          "average": "03:44",
+          "slowest": "03:58",
+          "average_seconds": 224
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:23",
+          "average": "01:42",
+          "slowest": "02:05",
+          "average_seconds": 102
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:20",
+          "average": "03:43",
+          "slowest": "04:00",
+          "average_seconds": 223
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:03",
+          "average": "03:14",
+          "slowest": "04:24",
+          "average_seconds": 194
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:45",
+          "average": "03:57",
+          "slowest": "04:17",
+          "average_seconds": 237
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:26",
+          "average": "03:36",
+          "slowest": "05:01",
+          "average_seconds": 216
+        }
+      ]
+    },
+    {
+      "name": "Joanna Wietrzyk",
+      "timings_url": "https://www.hyresult.com/athlete/joanna-wietrzyk?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:02",
+          "average": "03:22",
+          "slowest": "04:19",
+          "average_seconds": 202
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:28",
+          "average": "04:10",
+          "slowest": "04:46",
+          "average_seconds": 250
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:26",
+          "average": "03:59",
+          "slowest": "08:27",
+          "average_seconds": 239
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:11",
+          "average": "01:53",
+          "slowest": "02:38",
+          "average_seconds": 113
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:33",
+          "average": "03:51",
+          "slowest": "04:34",
+          "average_seconds": 231
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:01",
+          "average": "03:33",
+          "slowest": "05:12",
+          "average_seconds": 213
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:28",
+          "average": "03:52",
+          "slowest": "04:27",
+          "average_seconds": 232
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:54",
+          "average": "03:16",
+          "slowest": "04:15",
+          "average_seconds": 196
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:26",
+          "average": "03:59",
+          "slowest": "04:35",
+          "average_seconds": 239
+        },
+        {
+          "split": "Row",
+          "fastest": "03:46",
+          "average": "04:12",
+          "slowest": "04:24",
+          "average_seconds": 252
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:33",
+          "average": "03:56",
+          "slowest": "04:35",
+          "average_seconds": 236
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:06",
+          "average": "01:30",
+          "slowest": "01:54",
+          "average_seconds": 90
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:31",
+          "average": "03:53",
+          "slowest": "04:54",
+          "average_seconds": 233
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:23",
+          "average": "03:10",
+          "slowest": "03:50",
+          "average_seconds": 190
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:38",
+          "average": "03:53",
+          "slowest": "04:36",
+          "average_seconds": 233
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:24",
+          "average": "03:27",
+          "slowest": "04:00",
+          "average_seconds": 207
+        }
+      ]
+    },
+    {
+      "name": "Rebecca Naether",
+      "timings_url": "https://www.hyresult.com/athlete/rebecca-naether?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:46",
+          "average": "03:44",
+          "slowest": "05:29",
+          "average_seconds": 224
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:40",
+          "average": "04:14",
+          "slowest": "04:36",
+          "average_seconds": 254
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:39",
+          "average": "04:07",
+          "slowest": "04:43",
+          "average_seconds": 247
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:18",
+          "average": "02:56",
+          "slowest": "04:48",
+          "average_seconds": 176
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:45",
+          "average": "04:20",
+          "slowest": "04:56",
+          "average_seconds": 260
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:21",
+          "average": "04:14",
+          "slowest": "06:14",
+          "average_seconds": 254
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:47",
+          "average": "04:25",
+          "slowest": "05:04",
+          "average_seconds": 265
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:48",
+          "average": "03:14",
+          "slowest": "04:35",
+          "average_seconds": 194
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:44",
+          "average": "04:33",
+          "slowest": "09:30",
+          "average_seconds": 273
+        },
+        {
+          "split": "Row",
+          "fastest": "03:43",
+          "average": "04:25",
+          "slowest": "04:52",
+          "average_seconds": 265
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:47",
+          "average": "04:27",
+          "slowest": "06:06",
+          "average_seconds": 267
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:11",
+          "average": "01:46",
+          "slowest": "02:43",
+          "average_seconds": 106
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:49",
+          "average": "04:22",
+          "slowest": "04:50",
+          "average_seconds": 262
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:01",
+          "average": "03:49",
+          "slowest": "35:01",
+          "average_seconds": 229
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:56",
+          "average": "04:46",
+          "slowest": "06:40",
+          "average_seconds": 286
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:01",
+          "average": "04:06",
+          "slowest": "06:38",
+          "average_seconds": 246
+        }
+      ]
+    },
+    {
+      "name": "Yoie Bohlin",
+      "timings_url": "https://www.hyresult.com/athlete/yoie-bohlin?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "03:20",
+          "average": "04:06",
+          "slowest": "04:51",
+          "average_seconds": 246
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "04:07",
+          "average": "04:08",
+          "slowest": "04:09",
+          "average_seconds": 248
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:41",
+          "average": "03:51",
+          "slowest": "04:00",
+          "average_seconds": 231
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:47",
+          "average": "02:26",
+          "slowest": "03:05",
+          "average_seconds": 146
+        },
+        {
+          "split": "Running 3",
+          "fastest": "04:02",
+          "average": "05:54",
+          "slowest": "07:46",
+          "average_seconds": 354
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "03:26",
+          "average": "04:32",
+          "slowest": "05:37",
+          "average_seconds": 272
+        },
+        {
+          "split": "Running 4",
+          "fastest": "04:06",
+          "average": "04:10",
+          "slowest": "04:13",
+          "average_seconds": 250
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "02:40",
+          "average": "02:57",
+          "slowest": "03:14",
+          "average_seconds": 177
+        },
+        {
+          "split": "Running 5",
+          "fastest": "04:08",
+          "average": "04:09",
+          "slowest": "04:09",
+          "average_seconds": 249
+        },
+        {
+          "split": "Row",
+          "fastest": "04:23",
+          "average": "04:25",
+          "slowest": "04:26",
+          "average_seconds": 265
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:58",
+          "average": "04:04",
+          "slowest": "04:10",
+          "average_seconds": 244
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:37",
+          "average": "01:42",
+          "slowest": "01:47",
+          "average_seconds": 102
+        },
+        {
+          "split": "Running 7",
+          "fastest": "04:05",
+          "average": "04:06",
+          "slowest": "04:06",
+          "average_seconds": 246
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "03:12",
+          "average": "03:30",
+          "slowest": "03:48",
+          "average_seconds": 210
+        },
+        {
+          "split": "Running 8",
+          "fastest": "04:20",
+          "average": "04:22",
+          "slowest": "04:24",
+          "average_seconds": 262
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:34",
+          "average": "03:58",
+          "slowest": "05:22",
+          "average_seconds": 238
+        }
+      ]
+    },
+    {
+      "name": "Charlotte Vandenlindenloof",
+      "timings_url": "https://www.hyresult.com/athlete/charlotte-vandenlindenloof?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:47",
+          "average": "03:54",
+          "slowest": "05:27",
+          "average_seconds": 234
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "03:44",
+          "average": "04:04",
+          "slowest": "04:58",
+          "average_seconds": 244
+        },
+        {
+          "split": "Running 2",
+          "fastest": "02:52",
+          "average": "03:55",
+          "slowest": "04:51",
+          "average_seconds": 235
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:00",
+          "average": "01:36",
+          "slowest": "03:14",
+          "average_seconds": 96
+        },
+        {
+          "split": "Running 3",
+          "fastest": "02:56",
+          "average": "04:05",
+          "slowest": "05:03",
+          "average_seconds": 245
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:26",
+          "average": "03:19",
+          "slowest": "05:28",
+          "average_seconds": 199
+        },
+        {
+          "split": "Running 4",
+          "fastest": "02:43",
+          "average": "04:03",
+          "slowest": "05:05",
+          "average_seconds": 243
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "01:25",
+          "average": "02:31",
+          "slowest": "03:58",
+          "average_seconds": 151
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:04",
+          "average": "04:06",
+          "slowest": "05:16",
+          "average_seconds": 246
+        },
+        {
+          "split": "Row",
+          "fastest": "03:38",
+          "average": "04:14",
+          "slowest": "05:13",
+          "average_seconds": 254
+        },
+        {
+          "split": "Running 6",
+          "fastest": "02:59",
+          "average": "04:04",
+          "slowest": "05:01",
+          "average_seconds": 244
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:06",
+          "average": "01:33",
+          "slowest": "02:28",
+          "average_seconds": 93
+        },
+        {
+          "split": "Running 7",
+          "fastest": "02:56",
+          "average": "04:07",
+          "slowest": "05:11",
+          "average_seconds": 247
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:03",
+          "average": "02:33",
+          "slowest": "03:20",
+          "average_seconds": 153
+        },
+        {
+          "split": "Running 8",
+          "fastest": "02:35",
+          "average": "04:05",
+          "slowest": "05:04",
+          "average_seconds": 245
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:23",
+          "average": "03:14",
+          "slowest": "04:45",
+          "average_seconds": 194
+        }
+      ]
+    },
+    {
+      "name": "Jessica Donohue",
+      "timings_url": "https://www.hyresult.com/athlete/jessica-donohue?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "03:46",
+          "average": "04:28",
+          "slowest": "05:10",
+          "average_seconds": 268
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "04:27",
+          "average": "04:27",
+          "slowest": "04:27",
+          "average_seconds": 267
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:15",
+          "average": "03:25",
+          "slowest": "03:35",
+          "average_seconds": 205
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:49",
+          "average": "02:57",
+          "slowest": "04:05",
+          "average_seconds": 177
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:34",
+          "average": "03:41",
+          "slowest": "03:48",
+          "average_seconds": 221
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "03:12",
+          "average": "05:09",
+          "slowest": "07:06",
+          "average_seconds": 309
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:36",
+          "average": "03:42",
+          "slowest": "03:47",
+          "average_seconds": 222
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "03:38",
+          "average": "03:42",
+          "slowest": "03:45",
+          "average_seconds": 222
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:39",
+          "average": "03:48",
+          "slowest": "03:57",
+          "average_seconds": 228
+        },
+        {
+          "split": "Row",
+          "fastest": "04:33",
+          "average": "04:35",
+          "slowest": "04:37",
+          "average_seconds": 275
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:39",
+          "average": "03:47",
+          "slowest": "03:54",
+          "average_seconds": 227
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:50",
+          "average": "01:56",
+          "slowest": "02:02",
+          "average_seconds": 116
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:34",
+          "average": "03:44",
+          "slowest": "03:54",
+          "average_seconds": 224
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:47",
+          "average": "03:13",
+          "slowest": "03:38",
+          "average_seconds": 193
+        },
+        {
+          "split": "Running 8",
+          "fastest": "04:14",
+          "average": "04:36",
+          "slowest": "04:58",
+          "average_seconds": 276
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:47",
+          "average": "04:17",
+          "slowest": "04:47",
+          "average_seconds": 257
+        }
+      ]
+    },
+    {
+      "name": "Jana Lebenstedt",
+      "timings_url": "https://www.hyresult.com/athlete/jana-lebenstedt?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:42",
+          "average": "03:33",
+          "slowest": "05:07",
+          "average_seconds": 213
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "02:59",
+          "average": "04:05",
+          "slowest": "04:39",
+          "average_seconds": 245
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:21",
+          "average": "03:55",
+          "slowest": "05:17",
+          "average_seconds": 235
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:08",
+          "average": "02:14",
+          "slowest": "04:23",
+          "average_seconds": 134
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:25",
+          "average": "04:05",
+          "slowest": "05:11",
+          "average_seconds": 245
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "02:18",
+          "average": "03:25",
+          "slowest": "05:23",
+          "average_seconds": 205
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:25",
+          "average": "04:05",
+          "slowest": "05:11",
+          "average_seconds": 245
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "02:17",
+          "average": "03:10",
+          "slowest": "05:13",
+          "average_seconds": 190
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:11",
+          "average": "04:08",
+          "slowest": "05:11",
+          "average_seconds": 248
+        },
+        {
+          "split": "Row",
+          "fastest": "03:43",
+          "average": "04:26",
+          "slowest": "05:19",
+          "average_seconds": 266
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:25",
+          "average": "04:06",
+          "slowest": "05:11",
+          "average_seconds": 246
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:15",
+          "average": "01:34",
+          "slowest": "02:47",
+          "average_seconds": 94
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:10",
+          "average": "04:09",
+          "slowest": "05:24",
+          "average_seconds": 249
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:22",
+          "average": "03:05",
+          "slowest": "05:04",
+          "average_seconds": 185
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:09",
+          "average": "04:22",
+          "slowest": "05:42",
+          "average_seconds": 262
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "02:25",
+          "average": "03:32",
+          "slowest": "05:49",
+          "average_seconds": 212
+        }
+      ]
+    },
+    {
+      "name": "Judith Spijksma",
+      "timings_url": "https://www.hyresult.com/athlete/judith-spijksma?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:47",
+          "average": "04:04",
+          "slowest": "05:10",
+          "average_seconds": 244
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "04:03",
+          "average": "04:25",
+          "slowest": "04:34",
+          "average_seconds": 265
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:36",
+          "average": "04:09",
+          "slowest": "05:11",
+          "average_seconds": 249
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:50",
+          "average": "02:12",
+          "slowest": "02:38",
+          "average_seconds": 132
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:38",
+          "average": "04:17",
+          "slowest": "05:30",
+          "average_seconds": 257
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "03:17",
+          "average": "03:57",
+          "slowest": "04:25",
+          "average_seconds": 237
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:42",
+          "average": "04:17",
+          "slowest": "05:38",
+          "average_seconds": 257
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "03:04",
+          "average": "03:52",
+          "slowest": "04:17",
+          "average_seconds": 232
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:52",
+          "average": "04:40",
+          "slowest": "05:54",
+          "average_seconds": 280
+        },
+        {
+          "split": "Row",
+          "fastest": "04:15",
+          "average": "04:34",
+          "slowest": "04:48",
+          "average_seconds": 274
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:49",
+          "average": "04:26",
+          "slowest": "05:52",
+          "average_seconds": 266
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:39",
+          "average": "01:49",
+          "slowest": "02:06",
+          "average_seconds": 109
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:44",
+          "average": "04:25",
+          "slowest": "06:04",
+          "average_seconds": 265
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:50",
+          "average": "03:14",
+          "slowest": "04:02",
+          "average_seconds": 194
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:44",
+          "average": "04:28",
+          "slowest": "05:42",
+          "average_seconds": 268
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:12",
+          "average": "03:35",
+          "slowest": "04:16",
+          "average_seconds": 215
+        }
+      ]
+    },
+    {
+      "name": "Sydney Cromwell",
+      "timings_url": "https://www.hyresult.com/athlete/sydney-cromwell?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "02:52",
+          "average": "04:03",
+          "slowest": "05:13",
+          "average_seconds": 243
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "04:31",
+          "average": "04:45",
+          "slowest": "04:58",
+          "average_seconds": 285
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:19",
+          "average": "03:26",
+          "slowest": "03:32",
+          "average_seconds": 206
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "01:59",
+          "average": "03:14",
+          "slowest": "04:29",
+          "average_seconds": 194
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:30",
+          "average": "03:38",
+          "slowest": "03:46",
+          "average_seconds": 218
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "03:59",
+          "average": "04:22",
+          "slowest": "04:44",
+          "average_seconds": 262
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:29",
+          "average": "03:35",
+          "slowest": "03:41",
+          "average_seconds": 215
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "03:10",
+          "average": "03:24",
+          "slowest": "03:37",
+          "average_seconds": 204
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:33",
+          "average": "03:40",
+          "slowest": "03:47",
+          "average_seconds": 220
+        },
+        {
+          "split": "Row",
+          "fastest": "04:36",
+          "average": "04:41",
+          "slowest": "04:46",
+          "average_seconds": 281
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:27",
+          "average": "03:34",
+          "slowest": "03:41",
+          "average_seconds": 214
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:55",
+          "average": "02:05",
+          "slowest": "02:15",
+          "average_seconds": 125
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:29",
+          "average": "03:37",
+          "slowest": "03:45",
+          "average_seconds": 217
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "03:23",
+          "average": "03:48",
+          "slowest": "04:13",
+          "average_seconds": 228
+        },
+        {
+          "split": "Running 8",
+          "fastest": "03:49",
+          "average": "04:00",
+          "slowest": "04:10",
+          "average_seconds": 240
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "04:10",
+          "average": "06:22",
+          "slowest": "08:34",
+          "average_seconds": 382
+        }
+      ]
+    },
+    {
+      "name": "Sierra Baker",
+      "timings_url": "https://www.hyresult.com/athlete/sierra-baker?tab=timings",
+      "timings": [
+        {
+          "split": "Running 1",
+          "fastest": "03:02",
+          "average": "03:53",
+          "slowest": "05:17",
+          "average_seconds": 233
+        },
+        {
+          "split": "SkiErg",
+          "fastest": "04:34",
+          "average": "04:40",
+          "slowest": "04:44",
+          "average_seconds": 280
+        },
+        {
+          "split": "Running 2",
+          "fastest": "03:21",
+          "average": "03:56",
+          "slowest": "04:36",
+          "average_seconds": 236
+        },
+        {
+          "split": "Sled Push",
+          "fastest": "02:02",
+          "average": "02:54",
+          "slowest": "04:21",
+          "average_seconds": 174
+        },
+        {
+          "split": "Running 3",
+          "fastest": "03:44",
+          "average": "04:14",
+          "slowest": "04:56",
+          "average_seconds": 254
+        },
+        {
+          "split": "Sled Pull",
+          "fastest": "03:30",
+          "average": "04:05",
+          "slowest": "05:15",
+          "average_seconds": 245
+        },
+        {
+          "split": "Running 4",
+          "fastest": "03:35",
+          "average": "04:14",
+          "slowest": "04:56",
+          "average_seconds": 254
+        },
+        {
+          "split": "Burpee BJ",
+          "fastest": "03:18",
+          "average": "04:19",
+          "slowest": "05:59",
+          "average_seconds": 259
+        },
+        {
+          "split": "Running 5",
+          "fastest": "03:40",
+          "average": "04:17",
+          "slowest": "05:05",
+          "average_seconds": 257
+        },
+        {
+          "split": "Row",
+          "fastest": "04:39",
+          "average": "04:51",
+          "slowest": "05:10",
+          "average_seconds": 291
+        },
+        {
+          "split": "Running 6",
+          "fastest": "03:39",
+          "average": "04:16",
+          "slowest": "05:23",
+          "average_seconds": 256
+        },
+        {
+          "split": "Farmers C.",
+          "fastest": "01:27",
+          "average": "01:48",
+          "slowest": "02:33",
+          "average_seconds": 108
+        },
+        {
+          "split": "Running 7",
+          "fastest": "03:48",
+          "average": "04:23",
+          "slowest": "05:24",
+          "average_seconds": 263
+        },
+        {
+          "split": "S. Lunges",
+          "fastest": "02:56",
+          "average": "03:40",
+          "slowest": "04:01",
+          "average_seconds": 220
+        },
+        {
+          "split": "Running 8",
+          "fastest": "04:06",
+          "average": "04:42",
+          "slowest": "05:38",
+          "average_seconds": 282
+        },
+        {
+          "split": "Wall Balls",
+          "fastest": "03:17",
+          "average": "03:53",
+          "slowest": "04:33",
+          "average_seconds": 233
+        }
+      ]
     }
   ],
   "aggregate": {
     "splits": [
       {
         "split": "Burpee BJ",
-        "count": 4,
-        "mean_average_seconds": 177.25,
-        "mean_average": "2:57"
+        "count": 49,
+        "mean_average_seconds": 179.77551020408163,
+        "mean_average": "3:00"
       },
       {
         "split": "Farmers C.",
-        "count": 4,
-        "mean_average_seconds": 102.25,
-        "mean_average": "1:42"
+        "count": 49,
+        "mean_average_seconds": 99.53061224489795,
+        "mean_average": "1:40"
       },
       {
         "split": "Row",
-        "count": 4,
-        "mean_average_seconds": 263.5,
-        "mean_average": "4:24"
+        "count": 50,
+        "mean_average_seconds": 255.08,
+        "mean_average": "4:15"
       },
       {
         "split": "Running 1",
-        "count": 4,
-        "mean_average_seconds": 222.75,
-        "mean_average": "3:43"
+        "count": 50,
+        "mean_average_seconds": 222.34,
+        "mean_average": "3:42"
       },
       {
         "split": "Running 2",
-        "count": 4,
-        "mean_average_seconds": 257.5,
-        "mean_average": "4:18"
+        "count": 50,
+        "mean_average_seconds": 227.76,
+        "mean_average": "3:48"
       },
       {
         "split": "Running 3",
-        "count": 4,
-        "mean_average_seconds": 275.5,
-        "mean_average": "4:36"
+        "count": 49,
+        "mean_average_seconds": 240.40816326530611,
+        "mean_average": "4:00"
       },
       {
         "split": "Running 4",
-        "count": 4,
-        "mean_average_seconds": 271.75,
-        "mean_average": "4:32"
+        "count": 49,
+        "mean_average_seconds": 238.20408163265307,
+        "mean_average": "3:58"
       },
       {
         "split": "Running 5",
-        "count": 4,
-        "mean_average_seconds": 275.5,
-        "mean_average": "4:36"
+        "count": 49,
+        "mean_average_seconds": 242.81632653061226,
+        "mean_average": "4:03"
       },
       {
         "split": "Running 6",
-        "count": 4,
-        "mean_average_seconds": 272.25,
-        "mean_average": "4:32"
+        "count": 49,
+        "mean_average_seconds": 240.0612244897959,
+        "mean_average": "4:00"
       },
       {
         "split": "Running 7",
-        "count": 4,
-        "mean_average_seconds": 276.0,
-        "mean_average": "4:36"
+        "count": 49,
+        "mean_average_seconds": 241.30612244897958,
+        "mean_average": "4:01"
       },
       {
         "split": "Running 8",
-        "count": 4,
-        "mean_average_seconds": 283.0,
-        "mean_average": "4:43"
+        "count": 49,
+        "mean_average_seconds": 254.73469387755102,
+        "mean_average": "4:15"
       },
       {
         "split": "S. Lunges",
-        "count": 4,
-        "mean_average_seconds": 198.25,
-        "mean_average": "3:18"
+        "count": 49,
+        "mean_average_seconds": 188.71428571428572,
+        "mean_average": "3:09"
       },
       {
         "split": "SkiErg",
-        "count": 4,
-        "mean_average_seconds": 248.0,
-        "mean_average": "4:08"
+        "count": 50,
+        "mean_average_seconds": 249.98,
+        "mean_average": "4:10"
       },
       {
         "split": "Sled Pull",
-        "count": 4,
-        "mean_average_seconds": 246.5,
-        "mean_average": "4:06"
+        "count": 49,
+        "mean_average_seconds": 224.0204081632653,
+        "mean_average": "3:44"
       },
       {
         "split": "Sled Push",
-        "count": 4,
-        "mean_average_seconds": 152.0,
-        "mean_average": "2:32"
+        "count": 49,
+        "mean_average_seconds": 140.55102040816325,
+        "mean_average": "2:21"
       },
       {
         "split": "Wall Balls",
-        "count": 4,
-        "mean_average_seconds": 240.5,
-        "mean_average": "4:00"
+        "count": 49,
+        "mean_average_seconds": 252.48979591836735,
+        "mean_average": "4:12"
       }
     ]
   }
