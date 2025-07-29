@@ -222,7 +222,7 @@
         card.innerHTML = `
           <div class="split-title">
             <div class="split-name">${splitName}</div>
-            <div class="avg">Avg: <strong>${avgLabel || "n/a"}</strong>${count ? ` · n=${count}` : ""}</div>
+            <div class="avg">Avg: <strong>${avgLabel || "n/a"}</strong></div>
           </div>
           <div class="slider-row">
             <input type="range" min="${min}" max="${max}" value="${start}" step="1" aria-label="${splitName} slider">
