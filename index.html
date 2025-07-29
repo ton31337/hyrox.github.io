@@ -373,18 +373,6 @@
         console.warn("Local top.json not found or blocked by browser:", e);
       }
 
-      // 6) ./hyresult_aggregate.json (legacy name)
-      try {
-        const res = await fetch('./hyresult_aggregate.json', { cache: 'no-store' });
-        if (res.ok) {
-          const payload = await res.json();
-          buildFromData(payload);
-          return;
-        }
-      } catch (e) {
-        console.warn("Local hyresult_aggregate.json not found or blocked by browser:", e);
-      }
-
       // If nothing above worked, leave controls visible for manual loading
       document.getElementById('loaderPanel').classList.remove('hidden');
     })();
