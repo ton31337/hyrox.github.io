@@ -64,13 +64,19 @@
       document.getElementById('splits').classList.remove('hidden');
     }
 
-    // --- State ---
     let sliders = []; // [{split, inputEl, valueEl, avgSec, count}]
+    const unitsByIndex = ['1km', '1km', '1km', '50m', '1km', '50m', '1km', '80m', '1km', '1km', '1km', '200m', '1km', '80m', '1km', '100'];
 
     function clearUI() {
       document.getElementById('splits').innerHTML = "";
       document.getElementById('totalTime').textContent = "0:00";
       sliders = [];
+    }
+
+    // Return a distance for each split
+    function decoratedSplitName(name, idx, row) {
+      const unit = unitsByIndex?.[idx];
+      return unit ? `${name} (${unit})` : name;
     }
 
     function buildFromData(data) {
@@ -83,6 +89,7 @@
       const grid = document.getElementById('splits');
       splits.forEach((row, idx) => {
         const splitName = row.split || `Split ${idx+1}`;
+        const decoratedName = decoratedSplitName(splitName, idx, row);
         const avgSec = Number(row.mean_average_seconds ?? row.avg_seconds ?? row.average_seconds);
         const avgLabel = secondsToHMS(avgSec);
         const count = row.count ?? null;
@@ -95,11 +102,11 @@
         card.className = 'card';
         card.innerHTML = `
           <div class="split-title">
-            <div class="split-name">${splitName}</div>
+            <div class="split-name">${decoratedName}</div>
             <div class="avg">Avg: <strong>${avgLabel || "n/a"}</strong></div>
           </div>
           <div class="slider-row">
-            <input type="range" min="${min}" max="${max}" value="${start}" step="1" aria-label="${splitName} slider">
+            <input type="range" min="${min}" max="${max}" value="${start}" step="1" aria-label="${decoratedName} slider">
             <div class="value" aria-live="polite">${secondsToHMS(start)}</div>
           </div>
         `;
@@ -111,7 +118,7 @@
         });
 
         grid.appendChild(card);
-        sliders.push({ split: splitName, inputEl, valueEl, avgSec: avgSec || 0, count: count || 0 });
+        sliders.push({ split: decoratedName, inputEl, valueEl, avgSec: avgSec || 0, count: count || 0 });
       });
       updateTotal();
       showApp();
