@@ -36,7 +36,10 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2"/><path d="M12 3v2"/><path d="M7 4.5l1 1.73"/><path d="M17 4.5l-1 1.73"/></svg>
           Total Estimated Time
         </span>
-        <span id="totalTime">0:00</span>
+        <span id="totalTime" style="color:var(--accent);">0:00</span>
+        <br>
+        <span id="runningTotal" style="display:block;margin-top:0.5em;color:#fff;font-size:0.95em;"></span>
+        <span id="workoutsTotal" style="display:block;margin-top:0.2em;color:#fff;font-size:0.95em;"></span>
       </div>
     </section>
 
@@ -71,6 +74,7 @@
     }
 
     let sliders = []; // [{split, inputEl, valueEl, avgSec, count}]
+    const splitsByIndex = ['Running 1', 'SkiErg', 'Running 2', 'Sled Push', 'Running 3', 'Sled Pull', 'Running 4', 'Burpee BJ', 'Running 5', 'Row', 'Running 6', 'Farmers C.', 'Running 7', 'S. Lunges', 'Running 8', 'Wall Balls'];
     const unitsByIndex = ['1km', '1km', '1km', '50m', '1km', '50m', '1km', '80m', '1km', '1km', '1km', '200m', '1km', '100m', '1km', '100'];
 
     function clearUI() {
@@ -173,6 +177,21 @@
     function updateTotal() {
       const total = sliders.reduce((sum, s) => sum + Number(s.inputEl.value || 0), 0);
       document.getElementById('totalTime').textContent = secondsToHMS(total);
+
+      // Sum all sliders where split name starts with "Running"
+      let runningTotal = 0;
+      let workoutsTotal = 0;
+      sliders.forEach((s, idx) => {
+        // Use splitsByIndex for the original label
+        const splitLabel = window.splitsByIndex?.[idx] || s.split;
+        if (splitLabel && splitLabel.startsWith('Running')) {
+          runningTotal += Number(s.inputEl.value || 0);
+        } else {
+          workoutsTotal += Number(s.inputEl.value || 0);
+        }
+      });
+      document.getElementById('runningTotal').textContent = `Running Total: ${secondsToHMS(runningTotal)}`;
+      document.getElementById('workoutsTotal').textContent = `Workouts Total: ${secondsToHMS(workoutsTotal)}`;
     }
 
     (async function boot() {
