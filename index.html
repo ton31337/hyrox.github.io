@@ -336,7 +336,11 @@
           await new Promise(r => setTimeout(r, 100));
           html2canvas(exportDiv, {backgroundColor: '#181818'}).then(canvas => {
             const link = document.createElement('a');
-            link.download = 'hyrox_radar.png';
+            // Dynamic filename: YYYY-MM-DD_HH-MM-SS_hyrox_radar.png
+            const now = new Date();
+            const pad = n => String(n).padStart(2, '0');
+            const fname = `${now.getFullYear()}-${pad(now.getMonth()+1)}-${pad(now.getDate())}_${pad(now.getHours())}-${pad(now.getMinutes())}-${pad(now.getSeconds())}_hyrox_radar.png`;
+            link.download = fname;
             link.href = canvas.toDataURL();
             link.click();
             exportDiv.style.display = 'none';
