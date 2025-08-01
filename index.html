@@ -127,10 +127,10 @@
         // Calculate avg position as percent
         const avgPos = ((avgSec - min) / (max - min)) * 100;
         avgMarker.style.position = 'absolute';
-        avgMarker.style.left = `calc(${avgPos}% - 1px)`;
+        avgMarker.style.left = `calc(${avgPos}% + 2px)`;
         avgMarker.style.top = '2px';
         avgMarker.style.width = '2px';
-        avgMarker.style.height = 'calc(100% - 4px)';
+        avgMarker.style.height = 'calc(100% - 8px)';
         avgMarker.style.background = 'var(--accent)';
         avgMarker.style.borderRadius = '1px';
         avgMarker.title = `Average: ${avgLabel}`;
