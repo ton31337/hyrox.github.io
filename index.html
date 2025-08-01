@@ -106,12 +106,28 @@
             <div class="avg">Avg: <strong>${avgLabel || "n/a"}</strong></div>
           </div>
           <div class="slider-row">
-            <input type="range" min="${min}" max="${max}" value="${start}" step="1" aria-label="${decoratedName} slider">
+            <div class="slider-outer" style="position:relative; width:100%;">
+              <input type="range" min="${min}" max="${max}" value="${start}" step="1" aria-label="${decoratedName} slider" style="width:100%;">
+              <div class="slider-avg-marker"></div>
+            </div>
             <input type="text" class="value" aria-live="polite" value="${secondsToHMS(start)}" size="6" style="width:4em;text-align:center;">
           </div>
         `;
+        // Position the avg marker
+        const sliderOuter = card.querySelector('.slider-outer');
         const inputEl = card.querySelector('input[type="range"]');
         const valueInput = card.querySelector('input.value');
+        const avgMarker = card.querySelector('.slider-avg-marker');
+        // Calculate avg position as percent
+        const avgPos = ((avgSec - min) / (max - min)) * 100;
+        avgMarker.style.position = 'absolute';
+        avgMarker.style.left = `calc(${avgPos}% - 1px)`;
+        avgMarker.style.top = '2px';
+        avgMarker.style.width = '2px';
+        avgMarker.style.height = 'calc(100% - 4px)';
+        avgMarker.style.background = 'var(--accent)';
+        avgMarker.style.borderRadius = '1px';
+        avgMarker.title = `Average: ${avgLabel}`;
         // When slider changes, update text input
         inputEl.addEventListener('input', () => {
           valueInput.value = secondsToHMS(Number(inputEl.value));
