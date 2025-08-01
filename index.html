@@ -107,18 +107,42 @@
           </div>
           <div class="slider-row">
             <input type="range" min="${min}" max="${max}" value="${start}" step="1" aria-label="${decoratedName} slider">
-            <div class="value" aria-live="polite">${secondsToHMS(start)}</div>
+            <input type="text" class="value" aria-live="polite" value="${secondsToHMS(start)}" size="6" style="width:4em;text-align:center;">
           </div>
         `;
         const inputEl = card.querySelector('input[type="range"]');
-        const valueEl = card.querySelector('.value');
+        const valueInput = card.querySelector('input.value');
+        // When slider changes, update text input
         inputEl.addEventListener('input', () => {
-          valueEl.textContent = secondsToHMS(Number(inputEl.value));
+          valueInput.value = secondsToHMS(Number(inputEl.value));
           updateTotal();
+        });
+        // When text input changes, update slider (on blur or Enter)
+        function parseHMS(str) {
+          // Accepts m:ss, mm:ss, h:mm:ss, or just seconds
+          if (!str) return 0;
+          const parts = str.trim().split(':').map(Number);
+          if (parts.some(isNaN)) return 0;
+          if (parts.length === 1) return parts[0];
+          if (parts.length === 2) return parts[0]*60 + parts[1];
+          if (parts.length === 3) return parts[0]*3600 + parts[1]*60 + parts[2];
+          return 0;
+        }
+        function updateSliderFromInput() {
+          const sec = clamp(parseHMS(valueInput.value), min, max);
+          inputEl.value = sec;
+          valueInput.value = secondsToHMS(sec);
+          updateTotal();
+        }
+        valueInput.addEventListener('blur', updateSliderFromInput);
+        valueInput.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter') {
+            valueInput.blur();
+          }
         });
 
         grid.appendChild(card);
-        sliders.push({ split: decoratedName, inputEl, valueEl, avgSec: avgSec || 0, count: count || 0 });
+        sliders.push({ split: decoratedName, inputEl, valueEl: valueInput, avgSec: avgSec || 0, count: count || 0 });
       });
       updateTotal();
       showApp();
