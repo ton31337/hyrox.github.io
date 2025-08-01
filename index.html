@@ -211,18 +211,6 @@
       const total = sliders.reduce((sum, s) => sum + Number(s.inputEl.value || 0), 0);
       document.getElementById('totalTime').textContent = secondsToHMS(total);
       updateExportTable();
-    document.getElementById('exportImageBtn').addEventListener('click', async () => {
-      const exportDiv = document.getElementById('splits-export');
-      exportDiv.style.display = 'block';
-      await new Promise(r => setTimeout(r, 100));
-      html2canvas(exportDiv, {backgroundColor: '#181818'}).then(canvas => {
-        const link = document.createElement('a');
-        link.download = 'hyrox_estimated_total_times.png';
-        link.href = canvas.toDataURL();
-        link.click();
-        exportDiv.style.display = 'none';
-      });
-    });
 
       // Sum all sliders where split name starts with "Running"
       let runningTotal = 0;
@@ -239,6 +227,25 @@
       document.getElementById('runningTotal').innerHTML = `Running <span style="color:var(--accent);">${secondsToHMS(runningTotal)}</span>`;
       document.getElementById('workoutsTotal').innerHTML = `Workouts <span style="color:var(--accent);">${secondsToHMS(workoutsTotal)}</span>`;
     }
+
+    // Only add the export button handler once, after DOM is loaded
+    document.addEventListener('DOMContentLoaded', function() {
+      const exportBtn = document.getElementById('exportImageBtn');
+      if (exportBtn) {
+        exportBtn.addEventListener('click', async () => {
+          const exportDiv = document.getElementById('splits-export');
+          exportDiv.style.display = 'block';
+          await new Promise(r => setTimeout(r, 100));
+          html2canvas(exportDiv, {backgroundColor: '#181818'}).then(canvas => {
+            const link = document.createElement('a');
+            link.download = 'hyrox_estimated_total_times.png';
+            link.href = canvas.toDataURL();
+            link.click();
+            exportDiv.style.display = 'none';
+          });
+        });
+      }
+    });
 
     (async function boot() {
       try {
