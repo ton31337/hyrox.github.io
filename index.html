@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="style.css">
-  <title>Hyrox Calculator</title>
+  <title>HYROX Calculator</title>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-94KG4CVG5D"></script>
@@ -45,16 +45,30 @@
         <div class="total" style="display:flex;align-items:center;gap:0.4em;">
           <span id="workoutsTotal" style="color:#fff;font-size:0.95em;"></span>
         </div>
+        <div style="margin-top:1em;">
+          <button id="exportImageBtn" style="padding:0.5em 1.2em;font-size:1em;border-radius:6px;border:none;background:var(--accent);color:#222;cursor:pointer;">Export HYROX Estimated Total Times</button>
+        </div>
       </div>
     </section>
 
     <section id="splits" class="grid hidden"></section>
+    <div id="splits-export" style="display:none; background:#181818; color:#fff; padding:1.5em; border-radius:12px; max-width:420px; margin:2em auto 0 auto; box-shadow:0 2px 12px #0003; font-family:sans-serif;">
+      <h2 style="margin-top:0;font-size:1.2em;">HYROX Estimated Total Times</h2>
+      <table id="splitsExportTable" style="width:100%;border-collapse:collapse;font-size:1em;">
+        <thead><tr><th style="text-align:left;padding:0.3em 0.5em;">Workout</th><th style="text-align:right;padding:0.3em 0.5em;">Time</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <div style="margin-top:1em;font-size:1.05em;">
+        <strong>Total Estimated Time:</strong> <span id="exportTotalTime" style="color:var(--accent);"></span>
+      </div>
+    </div>
 
     <footer>
       <a href="https://www.instagram.com/olimpieciogimnastikos">Let's roll the ball!</a>
     </footer>
   </main>
 
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
   <script>
     const DEFAULT_REMOTE = "https://hyrox.top/contrib/top.json";
 
@@ -177,11 +191,38 @@
       });
       updateTotal();
       showApp();
+      updateExportTable();
+    }
+
+    function updateExportTable() {
+      const tbody = document.querySelector('#splitsExportTable tbody');
+      if (!tbody) return;
+      tbody.innerHTML = '';
+      sliders.forEach((s, idx) => {
+        const row = document.createElement('tr');
+        row.innerHTML = `<td style="padding:0.3em 0.5em;">${s.split}</td><td style="padding:0.3em 0.5em;text-align:right;">${secondsToHMS(Number(s.inputEl.value||0))}</td>`;
+        tbody.appendChild(row);
+      });
+      const total = sliders.reduce((sum, s) => sum + Number(s.inputEl.value || 0), 0);
+      document.getElementById('exportTotalTime').textContent = secondsToHMS(total);
     }
 
     function updateTotal() {
       const total = sliders.reduce((sum, s) => sum + Number(s.inputEl.value || 0), 0);
       document.getElementById('totalTime').textContent = secondsToHMS(total);
+      updateExportTable();
+    document.getElementById('exportImageBtn').addEventListener('click', async () => {
+      const exportDiv = document.getElementById('splits-export');
+      exportDiv.style.display = 'block';
+      await new Promise(r => setTimeout(r, 100));
+      html2canvas(exportDiv, {backgroundColor: '#181818'}).then(canvas => {
+        const link = document.createElement('a');
+        link.download = 'hyrox_estimated_total_times.png';
+        link.href = canvas.toDataURL();
+        link.click();
+        exportDiv.style.display = 'none';
+      });
+    });
 
       // Sum all sliders where split name starts with "Running"
       let runningTotal = 0;
@@ -212,7 +253,8 @@
       }
 
       // If nothing above worked, leave controls visible for manual loading
-      document.getElementById('loaderPanel').classList.remove('hidden');
+      var loaderPanel = document.getElementById('loaderPanel');
+      if (loaderPanel) loaderPanel.classList.remove('hidden');
     })();
   </script>
 </body>
