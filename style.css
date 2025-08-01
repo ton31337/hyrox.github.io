@@ -120,7 +120,7 @@ input.value {
 
 .total {
     display: flex; align-items: center; justify-content: space-between;
-    font-size: 20px; font-weight: 800; padding: 14px 16px; border-radius: 12px;
+    font-size: 16px; font-weight: 800; padding: 14px 16px; border-radius: 12px;
     background: linear-gradient(90deg, rgba(255,222,0,0.16), rgba(255,255,255,0.06));
     border: 1px solid var(--border);
 }
