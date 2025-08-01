@@ -99,7 +99,7 @@ p.lead { margin: 0; color: var(--muted); }
 
 .slider-row { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; }
 input[type="range"] { width: 100%; accent-color: var(--accent); }
-
+input[type="range"]
 input.value {
     color: var(--text);
     background: #101010;
@@ -120,7 +120,7 @@ input.value {
 
 .total {
     display: flex; align-items: center; justify-content: space-between;
-    font-size: 18px; font-weight: 800; padding: 14px 16px; border-radius: 12px;
+    font-size: 20px; font-weight: 800; padding: 14px 16px; border-radius: 12px;
     background: linear-gradient(90deg, rgba(255,222,0,0.16), rgba(255,255,255,0.06));
     border: 1px solid var(--border);
 }
@@ -131,3 +131,26 @@ footer {
 .hint { color: var(--muted); font-size: 12px; }
 .right { text-align: right; }
 .hidden { display: none !important; }
+
+.running-center {
+    display: flex !important;
+    width: 100%;
+    min-height: 40px;
+}
+#runningTotal {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.workouts-center {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 40px;
+}
+#workoutsTotal {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
