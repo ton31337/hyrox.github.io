@@ -37,9 +37,14 @@
           Total Estimated Time
         </span>
         <span id="totalTime" style="color:var(--accent);">0:00</span>
-        <br>
-        <span id="runningTotal" style="display:block;margin-top:0.5em;color:#fff;font-size:0.95em;"></span>
-        <span id="workoutsTotal" style="display:block;margin-top:0.2em;color:#fff;font-size:0.95em;"></span>
+      </div>
+      <div style="margin-top: 10px;">
+        <div class="total" style="display:flex;align-items:center;gap:0.4em;margin-bottom:0.5em;">
+          <span id="runningTotal" style="color:#fff;font-size:0.95em;"></span>
+        </div>
+        <div class="total" style="display:flex;align-items:center;gap:0.4em;">
+          <span id="workoutsTotal" style="color:#fff;font-size:0.95em;"></span>
+        </div>
       </div>
     </section>
 
@@ -190,8 +195,8 @@
           workoutsTotal += Number(s.inputEl.value || 0);
         }
       });
-      document.getElementById('runningTotal').textContent = `Running Total: ${secondsToHMS(runningTotal)}`;
-      document.getElementById('workoutsTotal').textContent = `Workouts Total: ${secondsToHMS(workoutsTotal)}`;
+      document.getElementById('runningTotal').textContent = `Running ${secondsToHMS(runningTotal)}`;
+      document.getElementById('workoutsTotal').textContent = `Workouts ${secondsToHMS(workoutsTotal)}`;
     }
 
     (async function boot() {
