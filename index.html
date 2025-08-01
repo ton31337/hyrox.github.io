@@ -336,7 +336,7 @@
           await new Promise(r => setTimeout(r, 100));
           html2canvas(exportDiv, {backgroundColor: '#181818'}).then(canvas => {
             const link = document.createElement('a');
-            link.download = 'hyrox_estimated_total_times.png';
+            link.download = 'hyrox_radar.png';
             link.href = canvas.toDataURL();
             link.click();
             exportDiv.style.display = 'none';
