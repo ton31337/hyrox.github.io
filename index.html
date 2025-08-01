@@ -195,8 +195,8 @@
           workoutsTotal += Number(s.inputEl.value || 0);
         }
       });
-      document.getElementById('runningTotal').textContent = `Running ${secondsToHMS(runningTotal)}`;
-      document.getElementById('workoutsTotal').textContent = `Workouts ${secondsToHMS(workoutsTotal)}`;
+      document.getElementById('runningTotal').innerHTML = `Running <span style="color:var(--accent);">${secondsToHMS(runningTotal)}</span>`;
+      document.getElementById('workoutsTotal').innerHTML = `Workouts <span style="color:var(--accent);">${secondsToHMS(workoutsTotal)}</span>`;
     }
 
     (async function boot() {
