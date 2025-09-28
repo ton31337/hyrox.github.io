@@ -31,14 +31,10 @@
 
   <main class="wrap">
     <section id="totals" class="panel hidden">
-      <div class="total">
-        <span style="display:inline-flex;align-items:center;gap:0.4em;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2"/><path d="M12 3v2"/><path d="M7 4.5l1 1.73"/><path d="M17 4.5l-1 1.73"/></svg>
-          Total Estimated Time
-        </span>
-        <span id="totalTime" style="color:var(--accent);">0:00</span>
-      </div>
       <div style="margin-top: 10px;">
+        <div class="total total-center" style="display:flex;align-items:center;gap:0.4em;margin-bottom:0.5em;">
+          <span id="totalTotal" style="color:#fff;font-size:0.95em;width:100%;"></span>
+        </div>
         <div class="total running-center" style="display:flex;align-items:center;gap:0.4em;margin-bottom:0.5em;">
           <span id="runningTotal" style="color:#fff;font-size:0.95em;width:100%;"></span>
         </div>
@@ -55,9 +51,6 @@
         <thead><tr><th style="text-align:left;padding:0.3em 0.5em;">Workout</th><th style="text-align:right;padding:0.3em 0.5em;">Time</th></tr></thead>
         <tbody></tbody>
       </table>
-      <div style="margin-top:1em;font-size:1.05em;">
-        <strong>Total Estimated Time:</strong> <span id="exportTotalTime" style="color:var(--accent);"></span>
-      </div>
       <div style="margin-top:2em;text-align:center;">
         <canvas id="radarChart" width="400" height="400" style="background:#222;border-radius:12px;"></canvas>
         <div style="margin-top:0.5em;font-size:0.97em;color:#aaa;">Strengths & Weaknesses vs Top 100</div>
@@ -103,7 +96,7 @@
 
     function clearUI() {
       document.getElementById('splits').innerHTML = "";
-      document.getElementById('totalTime').textContent = "0:00";
+      document.getElementById('totalTotal').textContent = "0:00";
       sliders = [];
     }
 
@@ -196,21 +189,6 @@
       });
       updateTotal();
       showApp();
-      updateExportTable();
-    }
-
-    function updateExportTable() {
-      const tbody = document.querySelector('#splitsExportTable tbody');
-      if (!tbody) return;
-      tbody.innerHTML = '';
-      sliders.forEach((s, idx) => {
-        const row = document.createElement('tr');
-        row.innerHTML = `<td style="padding:0.3em 0.5em;">${s.split}</td><td style="padding:0.3em 0.5em;text-align:right;">${secondsToHMS(Number(s.inputEl.value||0))}</td>`;
-        tbody.appendChild(row);
-      });
-      const total = sliders.reduce((sum, s) => sum + Number(s.inputEl.value || 0), 0);
-      document.getElementById('exportTotalTime').textContent = secondsToHMS(total);
-      drawRadarChart();
     }
 
     // Radar chart: relative % deviation from Top 100 in each station
@@ -308,12 +286,12 @@
 
     function updateTotal() {
       const total = sliders.reduce((sum, s) => sum + Number(s.inputEl.value || 0), 0);
-      document.getElementById('totalTime').textContent = secondsToHMS(total);
-      updateExportTable();
+      document.getElementById('totalTotal').textContent = secondsToHMS(total);
 
       // Sum all sliders where split name starts with "Running"
       let runningTotal = 0;
       let workoutsTotal = 0;
+      let totalTotal = 0;
       sliders.forEach((s, idx) => {
         // Use splitsByIndex for the original label
         const splitLabel = window.splitsByIndex?.[idx] || s.split;
@@ -323,6 +301,8 @@
           workoutsTotal += Number(s.inputEl.value || 0);
         }
       });
+      totalTotal = runningTotal + workoutsTotal;
+      document.getElementById('totalTotal').innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2"/><path d="M12 3v2"/><path d="M7 4.5l1 1.73"/><path d="M17 4.5l-1 1.73"/></svg><span style="margin-left:0.4em;margin-right:0.4em;">Total time</span><span style="color:var(--accent);">${secondsToHMS(totalTotal)}</span>`;
       document.getElementById('runningTotal').innerHTML = `<svg fill="#ffffff" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21.481,14.068l-2.2-6.585a1,1,0,0,0-.949-.683,4.865,4.865,0,0,1-2.893-.907A7.623,7.623,0,0,1,13.976,2.78a1,1,0,0,0-1.683-.487l-6,6a1,1,0,0,0,.016,1.43l12.537,12a1,1,0,0,0,1.4-.016L21.9,20.049a3.75,3.75,0,0,0,0-5.3A1.751,1.751,0,0,1,21.481,14.068Zm-.992,4.567-.967.967L8.43,8.984,12.544,4.87A7.358,7.358,0,0,0,14.03,7.307,6.076,6.076,0,0,0,17.6,8.757L19.583,14.7a3.778,3.778,0,0,0,.906,1.464A1.75,1.75,0,0,1,20.489,18.635ZM1,17a1,1,0,0,1,1-1h8a1,1,0,0,1,0,2H2A1,1,0,0,1,1,17Zm0-4a1,1,0,0,1,1-1H6a1,1,0,0,1,0,2H2A1,1,0,0,1,1,13Zm0,8a1,1,0,0,1,1-1H14a1,1,0,0,1,0,2H2A1,1,0,0,1,1,21Z"/></svg><span style="margin-left:0.4em;margin-right:0.4em;">Running</span><span style="color:var(--accent);">${secondsToHMS(runningTotal)}</span>`;
       document.getElementById('workoutsTotal').innerHTML = `<svg fill="#ffffff" width="30px" height="30px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="icomoon-ignore"></g><path d="M32 15.467h-3.147v-6.4h-3.2v-2.667h-4.267v9.067h-10.667v-9.067h-4.267v2.667h-3.2v6.4h-3.253v1.067h3.253v6.4h3.2v2.667h4.267v-9.067h10.667v9.067h4.267v-2.667h3.2v-6.4h3.147v-1.067zM4.32 21.867v-11.733h2.133v11.733h-2.133zM9.653 24.533h-2.133v-17.067h2.133v17.067zM24.587 24.533h-2.133v-17.067h2.133v17.067zM27.787 21.867h-2.133v-11.733h2.133v11.733z"></path></g></svg><span style="margin-left:0.4em;margin-right:0.4em;">Workouts</span><span style="color:var(--accent);"> ${secondsToHMS(workoutsTotal)}</span>`;
     }
